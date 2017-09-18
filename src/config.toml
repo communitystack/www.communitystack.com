@@ -1,0 +1,33 @@
+baseURL = "https://Discourse.Directory"
+languageCode = "en-us"
+title = "Discourse.Directory"
+
+theme = "discourse.directory-2017"
+googleAnalytics = "UA-107057228-1"
+
+enableEmoji = true
+
+[blackfriday]
+	hrefTargetBlank	=	true
+
+[params]
+description = "A directory of Discourse communities around the Internet."
+
+
+[social]
+	twitter = "FelicianoTech"
+
+[[menu.main]]
+	name	= "Communities"
+	url		= "/communities"
+	weight	= 1
+
+[[menu.main]]
+	name	= "Plugins"
+	url		= "/plugins"
+	weight	= 5
+
+[[menu.main]]
+	name	= "Submit"
+	url		= "/submit"
+	weight	= 10

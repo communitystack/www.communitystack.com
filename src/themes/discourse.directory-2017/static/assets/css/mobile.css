@@ -1,0 +1,51 @@
+/* Rules without a media query present take affect when the webpage is 1,170px or
+less. */
+
+
+main{
+	padding: 1px 1% 10px;
+	width: 95%;
+}
+	body.section-communities main.list .communities{
+		margin: 5px 10px;
+	}
+		body.section-communities main.list .community{
+			width: 48%;
+		}
+
+
+/************************************************
+ * <= 950px width
+ * *********************************************/
+@media(max-width: 950px){
+
+	main{
+		padding: 1px 0 10px;
+		width: 100%;
+	}
+		body.section-communities main.list .communities{
+			margin: 5px 5px;
+		}
+			body.section-communities main.list .community{
+				width: 49%;
+			}
+}
+
+
+/************************************************
+ * <= 850px width
+ * *********************************************/
+@media(max-width: 850px){
+
+	main{
+		padding: 1px 0 10px;
+		width: 100%;
+	}
+		body.section-communities main.list .communities{
+			margin: 5px 15px;
+		}
+			body.section-communities main.list .community{
+				margin: 25px auto 5px;
+				width: 98%;
+			}
+}

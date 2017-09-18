@@ -1,0 +1,272 @@
+/* ----------------------------------------------------------------------------
+ *  Table of Contents
+ * ----------------------------------------------------------------------------
+ * # Structure
+ * # Typography
+ * # Content
+ * # Elements
+ * # Generic Classes
+ * --------------------------------------------------------------------------*/
+
+/* Font colors belong in the typography section meanwhile background colors will be in structure or elements, depending on what they're for.*/
+
+/************************************************
+ * Structure
+ * *********************************************/
+html,
+body{
+	min-height: 100%;
+}
+
+html{
+	box-sizing: border-box;
+}
+	*,
+	*:before,
+	*:after{
+		box-sizing: inherit;
+	}
+
+body{
+	background-color: #34495E;
+	background-color: #2c3e50;
+}
+
+body > header{
+	padding: 10px 30px;
+	text-align: center;
+}
+	body > header img{
+		float: left;
+		width: 60px;
+	}
+
+	body > header h1{
+		margin: 0 60px 0 0;
+	}
+
+	body > header ul{
+		margin: 0 auto;
+		padding: 0;
+		width: 279px;
+		overflow: auto;
+	}
+		body > header li{
+			float: left;
+			list-style-type: none;
+		}
+			body > header li::before{
+				content: "• ";
+				padding: 2px 5px 2px 7px;
+			}
+				body > header li:first-child::before{
+					content: "";
+				}
+
+main{
+	margin: 10px auto;
+	background-color: #34495E;
+	padding: 1px 2% 20px;
+	width: 88%;
+}
+	main h1{
+	}
+
+body > footer{
+	padding: 30px 10%;
+	text-align: center;
+	font-weight: bold;
+}
+	body > footer p{
+		margin: 0;
+	}
+
+	body > footer .starbucks{
+		height: 3.3rem;
+		vertical-align: -10px;
+	}
+
+
+
+/************************************************
+ * Typography
+ * *********************************************/
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	color: #FFFFFF;
+}
+	body a{
+		color: #FFFFFF;
+	}
+
+
+body > header a{
+	text-decoration: none;
+}
+
+	
+
+/************************************************
+ * Content
+ * *********************************************/
+/* All Content Types */
+main h2{
+	text-align: center;
+}
+
+		main .content-item h3{
+			margin: 0;
+			padding: 10px 0;
+			font-size: 2.6rem;
+		}
+
+		main .content-item p{
+			padding: 10px;
+		}
+
+	main .content-item a{
+		color: #FFFFFF;
+	}
+
+/* Section - Communities */
+body.section-communities main.list .communities{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+	align-items: flex-start;
+	margin: 10px 40px;
+}
+	body.section-communities main.list .community{
+		margin-top: 30px;
+		border-radius: 8px;
+		background-color: #FFFFFF;
+		padding: 5px;
+		width: 46%;
+		color: #231F20;
+	}
+		body.section-communities main.list .community:nth-child(1n+0){
+			border-left: 8px solid #c0392b;
+			border-right: 8px solid #c0392b;
+		}
+
+		body.section-communities main.list .community:nth-child(2n+0){
+			border-left: 8px solid #e67e22;
+			border-right: 8px solid #e67e22;
+		}
+
+		body.section-communities main.list .community:nth-child(3n+0){
+			border-left: 8px solid #f1c40f;
+			border-right: 8px solid #f1c40f;
+		}
+
+		body.section-communities main.list .community:nth-child(4n+0){
+			border-left: 8px solid #2ecc71;
+			border-right: 8px solid #2ecc71;
+		}
+
+		body.section-communities main.list .community:nth-child(5n+0){
+			border-left: 8px solid #3498db;
+			border-right: 8px solid #3498db;
+		}
+
+		body.section-communities main.list .community img{
+			float: left;
+			padding: 12px;
+			width: 60px;
+			height: 60px;
+		}
+
+		body.section-communities main.list .community footer{
+			display: flex;
+		}
+			body.section-communities main.list .community footer div{
+				width: 21%;
+				text-align: center;
+			}
+				body.section-communities main.list .community footer div:last-child{
+					width: 37%;
+				}
+
+				body.section-communities main.list .community footer span{
+					display: block;
+					font-size: larger;
+					font-weight: bold;
+				}
+
+				body.section-communities main.list .community .button{
+					margin: 12px;
+					font-weight: bold;
+				}
+
+
+/************************************************
+ * Elements
+ * *********************************************/
+.button{
+	display: inline-block;
+	margin: 0;
+	background-color: #00A84F;
+	padding: 5px 15px;
+	color: #FFFFFF !important;
+	text-decoration: none !important;
+}
+	.button:hover{
+		background: #008F43;
+	}
+
+	.button i{
+		margin-right: 7px;
+	}
+
+.pager{
+	margin: 5px 5% 60px;
+	border-top: 1px dotted #DDDDDD;
+	padding: 5px;
+	height: 60px;
+}
+	.pager a{
+		color: #000000;
+		text-decoration: none;
+		font-weight: bold;
+	}
+		.pager a:hover{
+			text-decoration: underline;
+		}
+
+		.pager a.newer{
+			float: left;
+		}
+
+		.pager a.older{
+			float: right;
+		}
+
+
+
+/************************************************
+ * Generic Classes
+ * *********************************************/
+.alignleft{
+	float: left;
+	margin-right: 1.5rem;
+}
+
+.aligncenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	clear: both;
+}
+
+.alignright{
+	float: right;
+	margin-left: 1.5rem;
+}
