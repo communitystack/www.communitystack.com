@@ -7,7 +7,7 @@ function pull_discourse_info(){
 
 
 	# Technically the Yaml Front Matter order doesn't matter, but we're trying to keep it in this order regardless. Basically, the initial community file should have: `address`, `category`, and a `tags` array. Then, we have everything in this order:
-	json=$(curl -X GET $url"/about.json")
+	json=$(curl -k -X GET $url"/about.json")
 
 	title=$( echo $json | ./bin/yaml read - about.title )
 	description=$( echo $json | ./bin/yaml read - about.description )
@@ -16,7 +16,7 @@ function pull_discourse_info(){
 	language=$( echo $json | ./bin/yaml read - about.locale )
 
 	# Pull in Chrome HomeScreen Image, which we'll use as the default logo. For now, assuming .png until we come across otherwise.
-	json=$(curl -X GET $url"/manifest.json")
+	json=$(curl -k -X GET $url"/manifest.json")
 
 	icon_url=$( echo $json | ./bin/yaml read - icons[0].src )
 
