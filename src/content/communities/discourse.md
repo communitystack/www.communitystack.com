@@ -3,7 +3,7 @@ address: https://meta.discourse.org
 category: Software
 title: Discourse Meta
 description: Discussion about the next-generation open source Discourse forum software
-userCount: 29738
+userCount: 29924
 icon: discourse.png
 activity: very high
 language: en
