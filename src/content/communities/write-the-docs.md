@@ -5,7 +5,7 @@ category: Community
 title: Write the Docs Forum
 description: The public forum for writethedocs.org
 userCount: 450
-icon: write-the-docs.png
+icon: write-the-docs.ico
 activity: low
 language: en
 ---
