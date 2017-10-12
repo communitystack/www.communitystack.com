@@ -32,7 +32,7 @@ function pull_discourse_info(){
 
 
 	# process data for display
-	wget -O src/static/assets/img/community-icons/$slug".png" $icon_url
+	wget -O src/static/assets/img/community-icons/$slug"."${icon_url##*.} $icon_url
 
 	if (( $posts_30_days > 5000 )); then
 		activity="very high"
@@ -51,7 +51,7 @@ function pull_discourse_info(){
 	./bin/yaml write -i $1 title "$title"
 	./bin/yaml write -i $1 description "$description"
 	./bin/yaml write -i $1 userCount $user_count
-	./bin/yaml write -i $1 icon $slug".png"
+	./bin/yaml write -i $1 icon $slug"."${icon_url##*.}
 	./bin/yaml write -i $1 activity "$activity"
 	./bin/yaml write -i $1 language "$language"
 
