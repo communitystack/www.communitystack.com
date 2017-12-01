@@ -3,7 +3,7 @@ address: https://discourse.mozilla.org
 category: Software
 title: Mozilla Discourse
 description: Mozilla Community Discourse forum
-userCount: 10186
+userCount: 10736
 icon: mozilla-discourse.png
 activity: high
 language: en
