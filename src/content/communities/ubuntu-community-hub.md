@@ -3,7 +3,7 @@ address: https://community.ubuntu.com
 category: Linux
 title: Ubuntu Community Hub
 description: The meeting point for the Ubuntu community.
-userCount: 1665
+userCount: 1885
 icon: ubuntu-community-hub.png
 activity: high
 language: en
