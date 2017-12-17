@@ -3,7 +3,7 @@ address: https://discuss.macstadium.com
 category: Hosting
 title: MacStadium Community Discussion
 description: MacStadium community forum
-userCount: 32
+userCount: 33
 icon: macstadium.png
 activity: low
 language: en
