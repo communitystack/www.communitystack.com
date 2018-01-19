@@ -4,8 +4,8 @@ address: https://community.letsencrypt.org
 category: Software
 title: Let's Encrypt Community Support
 description: Let's Encrypt Community Support
-userCount: 38348
+userCount: 39438
 icon: lets-encrypt.png
-activity: high
+activity: very high
 language: en
 ---
