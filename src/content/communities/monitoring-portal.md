@@ -3,9 +3,9 @@ address: https://monitoring-portal.org
 category: Software
 title: Monitoring Portal
 description: |-
-  A place for open source monitoring - tools, integrations, metrics & anything beyond
-    devops.
-userCount: 241
+  'This platform is made with love for community discussions on open source monitoring,
+    metrics, integrations and anything related to the #monitoringlove culture.'
+userCount: 363
 icon: monitoring-portal.png
 activity: high
 language: en
