@@ -6,8 +6,8 @@ title: Zegist.com
 description: |-
   From the serious to the not so serious lets talk about relationships, lifestyle, entertainment,
     funny stuff, health, tech and meet cool people.
-userCount: 2472
+userCount: 2548
 icon: zegist.png
-activity: high
+activity: very high
 language: en
 ---
