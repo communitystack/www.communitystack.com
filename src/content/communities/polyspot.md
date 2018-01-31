@@ -1,6 +1,6 @@
 ---
 address: https://polyspot.site
-category: "Education"
+category: Education
 title: Polyspot
 description: |-
   A place for those who seek understanding in a significant number of different subject
