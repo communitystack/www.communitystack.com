@@ -7,6 +7,6 @@ description: |-
     areas.
 userCount: 5
 icon: polyspot.png
-activity: low
+activity: dead
 language: en
 ---
