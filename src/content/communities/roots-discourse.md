@@ -5,7 +5,7 @@ title: Roots Discourse
 description: |-
   A forum for questions specific to Roots projects, discussing best practices, and getting
     feedback from the Roots developers.
-userCount: 4524
+userCount: 4583
 icon: roots-discourse.png
 activity: medium
 language: en

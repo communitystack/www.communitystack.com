@@ -2,11 +2,11 @@
 name: New Relic
 address: https://discuss.newrelic.com
 category: Software
-title: New Relic Explorer's Hub
+title: New Relic Explorers Hub
 description: |-
   Get help using New Relic products and discuss application performance in our Community
     Forum
-userCount: 24892
+userCount: 25158
 icon: new-relic.png
 activity: high
 language: en
