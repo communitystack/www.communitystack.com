@@ -1,10 +1,10 @@
 ---
 name: Bad Voltage
-address: http://community.badvoltage.org
+address: https://community.badvoltage.org
 category: Linux
 title: Bad Voltage Community
 description: Tasty discussion for your eyes and brain
-userCount: 867
+userCount: 868
 icon: bad-voltage.png
 activity: medium
 language: en
