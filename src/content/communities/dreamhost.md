@@ -5,7 +5,7 @@ title: DreamHost Community
 description: |-
   A community of web professionals who engage in useful conversations about WordPress
     and other open web technologies.
-userCount: 27890
+userCount: 28312
 icon: dreamhost.svg
 activity: medium
 language: en
