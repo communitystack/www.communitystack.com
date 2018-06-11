@@ -4,8 +4,8 @@ address: https://community.badvoltage.org
 category: Linux
 title: Bad Voltage Community
 description: Tasty discussion for your eyes and brain
-userCount: 876
+userCount: 880
 icon: bad-voltage.png
-activity: medium
+activity: low
 language: en
 ---
