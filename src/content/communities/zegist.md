@@ -7,8 +7,8 @@ description: |-
   Get paid for sharing stories that matter to you on zegist.com. Make new friends, discuss
     your opinions openly or anonymously and enjoy conversations. Now with relationships,
     news, health, faith and funny gist.
-userCount: 3097
+userCount: 3256
 icon: zegist.png
-activity: very high
+activity: high
 language: en
 ---
