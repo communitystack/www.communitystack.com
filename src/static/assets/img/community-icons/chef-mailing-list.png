@@ -53,7 +53,7 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='styles-css'  href='https://www.chef.io/wp-content/themes/chef.io_2018/css/style.css?ver=1.4.0.3.6.14' type='text/css' media='all' />
+<link rel='stylesheet' id='styles-css'  href='https://www.chef.io/wp-content/themes/chef.io_2018/css/style.css?ver=1.4.0.3.6.34' type='text/css' media='all' />
 <link rel='https://api.w.org/' href='https://www.chef.io/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.chef.io/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.chef.io/wp-includes/wlwmanifest.xml" /> 
@@ -61,41 +61,7 @@ img.emoji {
 <link rel='shortlink' href='https://www.chef.io/?p=6300' />
 <link rel="alternate" type="application/json+oembed" href="https://www.chef.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.chef.io%2Fchef-inspec-and-habitat-logos%2F" />
 <link rel="alternate" type="text/xml+oembed" href="https://www.chef.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.chef.io%2Fchef-inspec-and-habitat-logos%2F&#038;format=xml" />
-<script type="text/javascript">
-(function(url){
-	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
-	var addEvent = function(evt, handler) {
-		if (window.addEventListener) {
-			document.addEventListener(evt, handler, false);
-		} else if (window.attachEvent) {
-			document.attachEvent('on' + evt, handler);
-		}
-	};
-	var removeEvent = function(evt, handler) {
-		if (window.removeEventListener) {
-			document.removeEventListener(evt, handler, false);
-		} else if (window.detachEvent) {
-			document.detachEvent('on' + evt, handler);
-		}
-	};
-	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
-	var logHuman = function() {
-		if (window.wfLogHumanRan) { return; }
-		window.wfLogHumanRan = true;
-		var wfscr = document.createElement('script');
-		wfscr.type = 'text/javascript';
-		wfscr.async = true;
-		wfscr.src = url + '&r=' + Math.random();
-		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-		for (var i = 0; i < evts.length; i++) {
-			removeEvent(evts[i], logHuman);
-		}
-	};
-	for (var i = 0; i < evts.length; i++) {
-		addEvent(evts[i], logHuman);
-	}
-})('//www.chef.io/?wordfence_lh=1&hid=EE5BCFF82422062F6D1E5156CB71BCB3');
-</script>	
+	
 	</head>
 
 <body class="page-template-default page page-id-6300">
@@ -124,11 +90,26 @@ img.emoji {
                                 <input name="q" placeholder="Search..." type="text" class="st-default-search-input">
                             </form>
                         </li>
-                        <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="/blog/events">Events</a></li>
-<li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="/blog">Blog</a></li>
+                        <li id="menu-item-7734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7734"><a target="_blank" href="https://docs.chef.io/">Docs</a></li>
+<li id="menu-item-7735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7735"><a target="_blank" href="https://learn.chef.io/">Learning</a></li>
+<li id="menu-item-7736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7736"><a href="https://www.chef.io/community/">Community</a></li>
+<li id="menu-item-7737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7737"><a href="https://www.chef.io/partners/">Partners</a>
+<ul class="sub-menu">
+	<li id="menu-item-7945" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7945"><a href="https://www.chef.io/partners/azure/">Microsoft Azure</a></li>
+	<li id="menu-item-7946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7946"><a href="https://www.chef.io/partners/aws/">Amazon Web Services</a></li>
+	<li id="menu-item-7947" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7947"><a href="https://www.chef.io/partners/google-cloud-platform/">Google Cloud Platform</a></li>
+	<li id="menu-item-7948" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7948"><a href="https://www.chef.io/partners/hpe/">HPE</a></li>
+	<li id="menu-item-8175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8175"><a href="https://www.chef.io/partners/">All Chef Partners</a></li>
+	<li id="menu-item-8176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8176"><a href="https://www.chef.io/contact/partnership-request/">Become a Partner</a></li>
+</ul>
+</li>
 <li id="menu-item-1698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1698"><a href="https://www.chef.io/support/">Support</a></li>
-<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="/account">Account</a></li>
-<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a target="_blank" href="https://manage.chef.io">Management Console</a></li>
+<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12"><a href="#">Logins</a>
+<ul class="sub-menu">
+	<li id="menu-item-7884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7884"><a href="/account/">Account</a></li>
+	<li id="menu-item-7885" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7885"><a target="_blank" href="https://manage.chef.io/">Management Console</a></li>
+</ul>
+</li>
                     </ul>
                     
                 </div>
@@ -144,9 +125,7 @@ img.emoji {
 					</h1>
                     <div class="nav--bar--content">
                         <ul class="nav--primary-links">
-                            <li class="nav--primary-link nav--primary-link-large" data-nav-title="Why Chef"><span>Why Chef</span></li><li class="nav--primary-link nav--primary-link-large" data-nav-title="Product"><span>Product</span></li><li class="nav--primary-link nav--primary-link-large" data-nav-title="Solutions"><span>Solutions</span></li><li class="nav--primary-link nav--primary-link-large" data-nav-title="Pricing"><span>Pricing</span></li><li class="nav--primary-link nav--primary-link-large" data-nav-title="About"><span>About</span></li>                            <li><a href="/chef/get-chef/">Downloads</a>
-                            </li>
-                        </ul>
+                            <li class="nav--primary-link nav--primary-link-large" data-nav-title="Why Chef"><span>Why Chef</span></li><li class="nav--primary-link nav--primary-link-large" data-nav-title="Product"><span>Product</span></li><li class="nav--primary-link nav--primary-link-large" data-nav-title="Solutions"><span>Solutions</span></li><li class="nav--primary-link nav--primary-link-large" data-nav-title="Pricing"><span>Pricing</span></li><li class="nav--primary-link nav--primary-link-large" data-nav-title="About"><span>About</span></li><li class="nav--primary-link nav--primary-link-large"><span><a href="/chef/get-chef/">Downloads</a></span></li>                        </ul>
                     </div>
                     <div id="nav--toggle"><i class="fa fa-bars"></i></div>
                     
@@ -161,15 +140,28 @@ img.emoji {
                 <input name="q" placeholder="Search..." type="text">
             </form>
             <ul class="nav--primary-links">
-                <li class="nav--primary-link nav--primary-link-mobile" data-nav-title="Why Chef"><span>Why Chef</span></li><li class="nav--primary-link nav--primary-link-mobile" data-nav-title="Product"><span>Product</span></li><li class="nav--primary-link nav--primary-link-mobile" data-nav-title="Solutions"><span>Solutions</span></li><li class="nav--primary-link nav--primary-link-mobile" data-nav-title="Pricing"><span>Pricing</span></li><li class="nav--primary-link nav--primary-link-mobile" data-nav-title="About"><span>About</span></li>                <li><a href="https://www.chef.io/chef/get-chef/">Downloads</a>
-                </li>
-            </ul>
+                <li class="nav--primary-link nav--primary-link-mobile" data-nav-title="Why Chef"><span>Why Chef</span></li><li class="nav--primary-link nav--primary-link-mobile" data-nav-title="Product"><span>Product</span></li><li class="nav--primary-link nav--primary-link-mobile" data-nav-title="Solutions"><span>Solutions</span></li><li class="nav--primary-link nav--primary-link-mobile" data-nav-title="Pricing"><span>Pricing</span></li><li class="nav--primary-link nav--primary-link-mobile" data-nav-title="About"><span>About</span></li><li class="nav--primary-link nav--primary-link-mobile"><span><a href="/chef/get-chef/">Downloads</a></span></li>            </ul>
             <ul class="nav--secondary-links">
-                <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="/blog/events">Events</a></li>
-<li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="/blog">Blog</a></li>
+                <li id="menu-item-7734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7734"><a target="_blank" href="https://docs.chef.io/">Docs</a></li>
+<li id="menu-item-7735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7735"><a target="_blank" href="https://learn.chef.io/">Learning</a></li>
+<li id="menu-item-7736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7736"><a href="https://www.chef.io/community/">Community</a></li>
+<li id="menu-item-7737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7737"><a href="https://www.chef.io/partners/">Partners</a>
+<ul class="sub-menu">
+	<li id="menu-item-7945" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7945"><a href="https://www.chef.io/partners/azure/">Microsoft Azure</a></li>
+	<li id="menu-item-7946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7946"><a href="https://www.chef.io/partners/aws/">Amazon Web Services</a></li>
+	<li id="menu-item-7947" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7947"><a href="https://www.chef.io/partners/google-cloud-platform/">Google Cloud Platform</a></li>
+	<li id="menu-item-7948" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7948"><a href="https://www.chef.io/partners/hpe/">HPE</a></li>
+	<li id="menu-item-8175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8175"><a href="https://www.chef.io/partners/">All Chef Partners</a></li>
+	<li id="menu-item-8176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8176"><a href="https://www.chef.io/contact/partnership-request/">Become a Partner</a></li>
+</ul>
+</li>
 <li id="menu-item-1698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1698"><a href="https://www.chef.io/support/">Support</a></li>
-<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="/account">Account</a></li>
-<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a target="_blank" href="https://manage.chef.io">Management Console</a></li>
+<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12"><a href="#">Logins</a>
+<ul class="sub-menu">
+	<li id="menu-item-7884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7884"><a href="/account/">Account</a></li>
+	<li id="menu-item-7885" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7885"><a target="_blank" href="https://manage.chef.io/">Management Console</a></li>
+</ul>
+</li>
             </ul>
         </div>
         
@@ -259,7 +251,7 @@ img.emoji {
 <div class="row">
 <div class="columns medium-6">
 <p><a class="cta" href="/solutions/cloud-migration/">Cloud Migration</a><br />
-<a class="cta" href="https://www.chef.io/solutions/modernizing-apps/">Modernizing Legacy Apps</a> <a class="cta" href="/solutions/compliance/">Compliance</a></p>
+<a class="cta" href="https://www.chef.io/solutions/modernizing-apps/">Modernizing Legacy Apps</a><br /><a class="cta" href="/solutions/compliance/">Compliance</a></p>
 </div>
 <div class="columns medium-6">
 <p><a class="cta" href="https://www.chef.io/solutions/government/">Government</a><br />
@@ -599,7 +591,176 @@ img.emoji {
                             
                     
         </div></div>        
-    </section>    <section class="content-block content-block-col-1 bg-white    "   >
+    </section>    <section class="content-block content-block-col-4 bg-white no-bottom-padding   border-top   "   >
+        
+                
+                
+        
+        <div class="row"><div class="medium-12 large-10 large-offset-1 narrow-col columns">
+            <div class="row header-content">
+						<div class="columns small-12">
+							<div class="editor-content editor-content-header">
+							<h2>Brand Colors</h2>
+
+							</div>
+						</div>
+					</div>            
+                                            
+                <div class="row col-content">
+                        
+                                                <div class="columns large-6 outter">
+                            <div class="row">
+                                                                <div class="columns medium-6 " data-mh="col">
+                                    <div class="editor-content ">
+                                        <h4>ORANGE</h4>
+<p><img class="size-full wp-image-8229 alignnone" src="https://www.chef.io/wp-content/uploads/2018/07/Orange@2x.png" alt="Chef Orange" width="200" height="200" srcset="https://www.chef.io/wp-content/uploads/2018/07/Orange@2x.png 600w, https://www.chef.io/wp-content/uploads/2018/07/Orange@2x-150x150.png 150w, https://www.chef.io/wp-content/uploads/2018/07/Orange@2x-300x300.png 300w, https://www.chef.io/wp-content/uploads/2018/07/Orange@2x-490x490.png 490w" sizes="(max-width: 200px) 100vw, 200px" /><br />
+<strong>Pantone 2012 C</strong><br />
+RGB: 235 157 0<br />
+HEX: EB9D00<br />
+CMYK: 0 45 100 0</p>
+                                    </div>
+                                </div>
+                                <div class="columns medium-6 " data-mh="col">
+                                    <div class="editor-content ">
+                                        <h4>LIGHT BLUE</h4>
+<p><img class="size-full wp-image-8229 alignnone" src="https://www.chef.io/wp-content/uploads/2018/07/Lt-Blue@2x.png" alt="Chef Orange" width="200" height="200" /><br />
+<strong>Pantone 283 C<br />
+</strong>RGB: 152 195 229<br />
+HEX: 98C3E5<br />
+CMYK: 42 9 0 0</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns large-6 outter">
+                            <div class="row">
+                                                                <div class="columns medium-6 " data-mh="col">
+                                    <div class="editor-content ">
+                                        <h4>DARK GREY</h4>
+<p><img class="size-full wp-image-8229 alignnone" src="https://www.chef.io/wp-content/uploads/2018/07/Dk-grey@2x.png" alt="Chef Orange" width="200" height="200" /><br />
+<strong>Pantone Cool Gray 10 C<br />
+</strong>RGB: 102 103 108<br />
+HEX: 66676C<br />
+CMYK: 40 30 20 66</p>
+                                    </div>
+                                </div>
+                                <div class="columns medium-6 show-for-large" data-mh="col">
+                                    <div class="editor-content no-content">
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    
+                </div>
+                                
+                        
+                    
+        </div></div>    </section>    <section class="content-block content-block-col-4 bg-white no-top-padding   border-bottom   "   >
+        
+                
+                
+        
+        <div class="row"><div class="medium-12 large-10 large-offset-1 narrow-col columns">
+                        
+                                            
+                <div class="row col-content">
+                        
+                                                <div class="columns large-6 outter">
+                            <div class="row">
+                                                                <div class="columns medium-6 " data-mh="col">
+                                    <div class="editor-content ">
+                                        <h4>DARK BLUE</h4>
+<p><img class="size-full wp-image-8229 alignnone" src="https://www.chef.io/wp-content/uploads/2018/07/Dk-blue@2x.png" alt="Chef Orange" width="200" height="200" /><br />
+<strong>Pantone 7545 C</strong><br />
+RGB: 67 83 99<br />
+HEX: 435363<br />
+CMYK: 76 60 44 26</p>
+                                    </div>
+                                </div>
+                                <div class="columns medium-6 " data-mh="col">
+                                    <div class="editor-content ">
+                                        <h4>GREY</h4>
+<p><img class="size-full wp-image-8229 alignnone" src="https://www.chef.io/wp-content/uploads/2018/07/Med-Grey@2x.png" alt="Chef Orange" width="200" height="200" /><br />
+<strong>Pantone Cool Gray 6 C</strong><br />
+RGB: 174 174 174<br />
+HEX: AEAEAE<br />
+CMYK: 16 11 11 27</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns large-6 outter">
+                            <div class="row">
+                                                                <div class="columns medium-6 " data-mh="col">
+                                    <div class="editor-content ">
+                                        <h4>LIGHT GREY</h4>
+<p><img class="size-full wp-image-8229 alignnone" src="https://www.chef.io/wp-content/uploads/2018/07/Lt-Grey@2x.png" alt="Chef Orange" width="200" height="200" /><br />
+<strong>Pantone Cool Gray 1 C</strong><br />
+RGB: 221 221 218<br />
+HEX: DDDDDA<br />
+CMYK: 4 2 4 8</p>
+                                    </div>
+                                </div>
+                                <div class="columns medium-6 " data-mh="col">
+                                    <div class="editor-content ">
+                                        <h4>WHITE</h4>
+<p><img class="size-full wp-image-8229 alignnone" src="https://www.chef.io/wp-content/uploads/2018/07/White@2x-2.png" alt="Chef Orange" width="200" height="200" /><br />
+<strong>Basis White</strong><br />
+RGB: 255 255 255<br />
+HEX: FFFFFF<br />
+CMYK: 0 0 0 0</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    
+                </div>
+                                
+                        
+                    
+        </div></div>    </section>	<section class="content-block content-block-col-2 bg-white no-bottom-padding     narrower   "   >
+		
+				
+						
+					
+			<div class="row"><div class="medium-12 large-10 large-offset-1 narrow-col columns">				
+				<div class="row header-content">
+						<div class="columns small-12">
+							<div class="editor-content editor-content-header">
+							<h2>Company Descriptions </h2>
+
+							</div>
+						</div>
+					</div>				
+				<div class="row col-content">
+					
+					
+												
+							<div class="columns col-left small-12 large-6 bg-none" data-mh="col">
+								<div class="editor-content ">
+									<h3>25 Words</h3>
+<p>Chef is the leader in Continuous Automation software, an innovator in cloud native operations and one of the founders of the DevOps movement. Visit <a href="http://www.chef.io"> http://www.chef.io</a></p>
+								</div>
+							</div>
+							<div class="columns col-right small-12 large-6 bg-none" data-mh="col">
+								<div class="editor-content ">
+									<h3>50 Words</h3>
+<p>Chef is the leader in Continuous Automation software, an innovator in cloud native operations and one of the founders of the DevOps movement. Chef is powered by an awesome community and open source software engines: Chef for infrastructure, Habitat for cloud native operations, and InSpec for compliance. Visit <a href="http://www.chef.io">http://www.chef.io</a></p>
+								</div>
+							</div>
+							
+												
+				</div>
+				
+								
+			</div></div>							
+					
+		
+	</section>    <section class="content-block content-block-col-1 bg-white no-top-padding    "   >
 		
 			
                 
@@ -612,8 +773,8 @@ img.emoji {
 			<div class="row col-content">
 				<div class="columns small-12">
 					<div class="editor-content">
-						<h2>Chef Color Palette </h2>
-<p><img class="alignnone wp-image-6369 size-full" src="https://www.chef.io/wp-content/uploads/2018/05/chef-color-palette.png" alt="" width="560" height="584" srcset="https://www.chef.io/wp-content/uploads/2018/05/chef-color-palette.png 560w, https://www.chef.io/wp-content/uploads/2018/05/chef-color-palette-288x300.png 288w, https://www.chef.io/wp-content/uploads/2018/05/chef-color-palette-470x490.png 470w" sizes="(max-width: 560px) 100vw, 560px" /></p>
+						<h3>100 Words</h3>
+<p>Chef is the leader in Continuous Automation software, an innovator in cloud native operations and one of the founders of the DevOps movement. Chef works with more than a thousand of the most innovative companies around the world to deliver their vision of digital transformation, providing the practices and platform to deliver software at speed. Chef Automate is Chef’s Continuous Automation Platform which is powered by an awesome community and open source software engines: Chef for infrastructure, Habitat for cloud native operations , and InSpec for compliance. For more visit <a href="http://www.chef.io">http://www.chef.io</a></p>
 					</div>
 				</div>
 			</div>
@@ -711,7 +872,7 @@ var code_prettify_settings = {"base_url":"https:\/\/www.chef.io\/wp-content\/plu
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://www.chef.io/wp-content/plugins/code-prettify/prettify/run_prettify.js?ver=1.3.4'></script>
-<script type='text/javascript' src='https://www.chef.io/wp-content/themes/chef.io_2018/js/scripts-all.js?ver=1.2.1.17'></script>
+<script type='text/javascript' src='https://www.chef.io/wp-content/themes/chef.io_2018/js/scripts-all.js?ver=1.2.1.29'></script>
 <script type='text/javascript' src='https://www.chef.io/wp-includes/js/wp-embed.min.js'></script>
 	<!--Segment-->
 	<script>
@@ -880,5 +1041,5 @@ padding: 10px;
 }
 
 body:not(.page-id-5096) #icegram_message_1936 { right: 85px; }
-</style><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"6654eef2de","applicationID":"45151573","transactionName":"Z1QHMUtXXUFRUhdYCl4eJAZNX1xcH0ECVgA=","queueTime":0,"applicationTime":364,"atts":"SxMERwNNTk8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</style><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"6654eef2de","applicationID":"45151573","transactionName":"Z1QHMUtXXUFRUhdYCl4eJAZNX1xcH0ECVgA=","queueTime":0,"applicationTime":261,"atts":"SxMERwNNTk8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>
