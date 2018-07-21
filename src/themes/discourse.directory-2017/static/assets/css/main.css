@@ -135,7 +135,8 @@ main h2{
 	}
 
 /* Section - Communities */
-body.section-communities main.list .communities{
+body.section-communities main.list .communities,
+body.section-plugins main.list .communities{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -143,7 +144,8 @@ body.section-communities main.list .communities{
 	align-items: flex-start;
 	margin: 10px 40px;
 }
-	body.section-communities main.list .community{
+	body.section-communities main.list .community,
+	body.section-plugins main.list .community{
 		margin-top: 30px;
 		border-radius: 8px;
 		background-color: #FFFFFF;
@@ -151,27 +153,32 @@ body.section-communities main.list .communities{
 		width: 46%;
 		color: #231F20;
 	}
-		body.section-communities main.list .community:nth-child(1n+0){
+		body.section-communities main.list .community:nth-child(1n+0),
+		body.section-plugins main.list .community:nth-child(1n+0){
 			border-left: 8px solid #c0392b;
 			border-right: 8px solid #c0392b;
 		}
 
-		body.section-communities main.list .community:nth-child(2n+0){
+		body.section-communities main.list .community:nth-child(2n+0),
+		body.section-plugins main.list .community:nth-child(2n+0){
 			border-left: 8px solid #e67e22;
 			border-right: 8px solid #e67e22;
 		}
 
-		body.section-communities main.list .community:nth-child(3n+0){
+		body.section-communities main.list .community:nth-child(3n+0),
+		body.section-plugins main.list .community:nth-child(3n+0){
 			border-left: 8px solid #f1c40f;
 			border-right: 8px solid #f1c40f;
 		}
 
-		body.section-communities main.list .community:nth-child(4n+0){
+		body.section-communities main.list .community:nth-child(4n+0),
+		body.section-plugins main.list .community:nth-child(4n+0){
 			border-left: 8px solid #2ecc71;
 			border-right: 8px solid #2ecc71;
 		}
 
-		body.section-communities main.list .community:nth-child(5n+0){
+		body.section-communities main.list .community:nth-child(5n+0),
+		body.section-plugins main.list .community:nth-child(5n+0){
 			border-left: 8px solid #3498db;
 			border-right: 8px solid #3498db;
 		}
