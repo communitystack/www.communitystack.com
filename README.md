@@ -1,4 +1,4 @@
-# Discourse.Directory [![CircleCI Build Status](https://circleci.com/gh/felicianotech/discourse.directory.svg?style=shield)](https://circleci.com/gh/felicianotech/discourse.directory) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/felicianotech/discourse.directory/master/LICENSE)
+# Discourse.Directory [![CircleCI Build Status](https://circleci.com/gh/discoursehub/www.discoursehub.com.svg?style=shield)](https://circleci.com/gh/discoursehub/www.discoursehub.com) [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/discoursehub/www.discoursehub.com/master/LICENSE)
 
 ## Adding a New Discourse Website
 
