@@ -16,5 +16,5 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               echo 'web01.revidian.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJiGRY6N9WYQ0vy6cTiwAgNbc6ueJmVo/EafBtmT7bcD6cQMbipYM/KfYQ2lCn2TxqWepZKYoyoVQXgArycCOns=' >> ~/.ssh/known_hosts
-              rsync -va --delete src/public/ staticweb@web01.revidian.net:www/discourse.directory/public_html
+              rsync -va --delete src/public/ staticweb@web01.revidian.net:www/www.discoursehub.com/public_html
             fi
