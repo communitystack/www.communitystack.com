@@ -7,7 +7,7 @@ description: |-
   The Digital Nomad Forum is a a question and answer site for digital nomads and remote
     workers to exchange information on working remotely from different places around
     the world such as Chiang Mai, Bangkok, Bali and Medellin.
-userCount: 7246
+userCount: 7255
 icon: nomad-list.png
 activity: low
 language: en

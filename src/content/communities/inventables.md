@@ -3,7 +3,7 @@ address: https://discuss.inventables.com
 category: Arts & Crafts
 title: Inventables Community Forum
 description: Forum for discussing Inventables products and machines
-userCount: 29348
+userCount: 29819
 icon: inventables.png
 activity: high
 language: en

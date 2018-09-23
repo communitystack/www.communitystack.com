@@ -3,8 +3,8 @@ address: https://community.makeroid.io
 category: Software
 title: Makeroid Community
 description: A place for Makeroid'ers to share and discuss their thoughts
-userCount: 4669
+userCount: 4827
 icon: makeroid.png
-activity: very high
+activity: high
 language: en
 ---
