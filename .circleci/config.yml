@@ -1,20 +1,43 @@
-version: 2
+workflows:
+  version: 2
+  main:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
+
+
+version: 2.1
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:0.48
+      - image: cibuilds/hugo:0.49.2
     steps:
       - checkout
       - run:
-          name: "Run Hugo"
+          name: "Build Website with Hugo"
           command: HUGO_ENV=production hugo -v -s src/
       - run:
           name: "Test The Website"
           command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+      - persist_to_workspace:
+          root: src
+          paths:
+            - public
+
+  deploy:
+    docker:
+      - image: cibuilds/hugo:0.49.2
+    steps:
+      - attach_workspace:
+          at: src
       - add_ssh_keys
-      - deploy:
+      - run:
+          name: "Deploy to Revidian Cloud Infrastructure"
           command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              echo 'web01.revidian.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJiGRY6N9WYQ0vy6cTiwAgNbc6ueJmVo/EafBtmT7bcD6cQMbipYM/KfYQ2lCn2TxqWepZKYoyoVQXgArycCOns=' >> ~/.ssh/known_hosts
-              rsync -va --delete src/public/ staticweb@web01.revidian.net:www/www.discoursehub.com/public_html
-            fi
+            echo 'web01.revidian.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJiGRY6N9WYQ0vy6cTiwAgNbc6ueJmVo/EafBtmT7bcD6cQMbipYM/KfYQ2lCn2TxqWepZKYoyoVQXgArycCOns=' >> ~/.ssh/known_hosts
+            rsync -va --delete src/public/ staticweb@web01.revidian.net:www/www.discoursehub.com/public_html
