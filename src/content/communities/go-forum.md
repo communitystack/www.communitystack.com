@@ -3,7 +3,7 @@ address: https://forum.golangbridge.org
 category: Software
 title: Go Forum
 description: The community-driven Go discussion site that keeps on giving
-userCount: 6109
+userCount: 6189
 icon: go-forum.png
 activity: high
 language: en
