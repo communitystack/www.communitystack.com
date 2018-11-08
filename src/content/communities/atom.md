@@ -4,7 +4,7 @@ address: https://discuss.atom.io
 category: Software
 title: Atom Discussion
 description: Public discussion forum for the Atom Editor
-userCount: 37015
+userCount: 37166
 icon: atom.png
 activity: high
 language: en
