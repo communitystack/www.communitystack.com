@@ -4,7 +4,7 @@ category: Programming
 title: ChromeDevs
 description: A community for Google Chrome developers. Chrome Extensions, Chrome OS
   apps, etc.
-userCount: 2
+userCount: 3
 icon: chromedevs.png
 activity: low
 language: en
