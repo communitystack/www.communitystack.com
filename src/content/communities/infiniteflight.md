@@ -1,10 +1,10 @@
 ---
-address: https://community.infinite-flight.com
+address: https://community.infiniteflight.com
 category: Gaming
 title: Infinite Flight Community
 description: The Official Infinite Flight Community
-userCount: 69613
-icon: infinite-flight.png
+userCount: 69688
+icon: infiniteflight.png
 activity: very high
 language: en
 ---
