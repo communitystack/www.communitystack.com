@@ -5,7 +5,7 @@ title: CommonMark Discussion
 description: |-
   Discussion about CommonMark - A strongly defined, highly compatible specification
     of Markdown
-userCount: 1329
+userCount: 1330
 icon: commonmark.png
 activity: low
 language: en
