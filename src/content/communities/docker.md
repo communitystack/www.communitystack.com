@@ -4,7 +4,7 @@ address: https://forums.docker.com
 category: Software
 title: Docker Forums
 description: Docker discussion forum
-userCount: 42535
+userCount: 43034
 icon: docker.svg
 activity: high
 language: en

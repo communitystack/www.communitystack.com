@@ -5,8 +5,8 @@ category: Activism
 title: Youth Debates
 description: Public Free Speech Forum for Youth Led Political and Non-Political Debates
   and Discussions
-userCount: 33939
+userCount: 33942
 icon: youth-debates.PNG
-activity: low
+activity: medium
 language: en
 ---
