@@ -1,5 +1,6 @@
+version: 2.1
+
 workflows:
-  version: 2
   main:
     jobs:
       - build
@@ -10,8 +11,6 @@ workflows:
             branches:
               only: master
 
-
-version: 2.1
 jobs:
   build:
     docker:
