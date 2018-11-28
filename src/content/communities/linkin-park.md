@@ -4,7 +4,7 @@ address: https://forum.linkinpark.com
 category: Music
 title: Linkin Park Forums
 description: LP / LPU Forums
-userCount: 123945
+userCount: 124531
 icon: linkin-park.png
 activity: very high
 language: en

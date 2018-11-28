@@ -5,7 +5,7 @@ title: Monitoring Portal
 description: |-
   'This platform is made with love for community discussions on open source monitoring,
     metrics, integrations and anything related to the #monitoringlove culture.'
-userCount: 1702
+userCount: 1737
 icon: monitoring-portal.png
 activity: high
 language: en
