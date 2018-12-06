@@ -3,7 +3,7 @@ address: https://discourse.chef.io
 category: Software
 title: Chef Mailing List
 description: Connect with the Chef Community
-userCount: 4485
+userCount: 4498
 icon: chef-mailing-list.png
 activity: medium
 language: en
