@@ -3,7 +3,7 @@ address: https://forums.pimoroni.com
 category: Maker
 title: Pimoroni Buccaneers
 description: Support and discussion forums for all things maker-related
-userCount: 4342
+userCount: 4367
 icon: pimoroni.png
 activity: medium
 language: en
