@@ -4,8 +4,8 @@ address: https://forum.sublimetext.com
 category: Software
 title: Sublime Forum
 description: The official Sublime Text forum
-userCount: 27352
+userCount: 27569
 icon: sublime-text.png
-activity: high
+activity: medium
 language: en
 ---
