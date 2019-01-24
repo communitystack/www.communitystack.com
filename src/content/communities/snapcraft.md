@@ -4,7 +4,7 @@ address: https://forum.snapcraft.io
 category: Software
 title: snapcraft.io
 description: The place where snap users, contributors, and developers get together.
-userCount: 3489
+userCount: 3621
 icon: snapcraft.svg
 activity: high
 language: en

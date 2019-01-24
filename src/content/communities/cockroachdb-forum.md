@@ -3,8 +3,8 @@ address: https://forum.cockroachlabs.com
 category: Software
 title: CockroachDB Forum
 description: Community forum for CockroachDB
-userCount: 970
+userCount: 988
 icon: cockroachdb-forum.png
-activity: low
+activity: medium
 language: en
 ---
