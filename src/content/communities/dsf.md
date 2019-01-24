@@ -4,8 +4,8 @@ address: https://community.dsf.ninja
 category: Music
 title: DSF Community
 description: Dubstep and related electronic music community forum (ex. Dubstepforum)
-userCount: 4015
+userCount: 4045
 icon: dsf.png
-activity: high
+activity: very high
 language: en
 ---

@@ -5,8 +5,8 @@ title: Turtle Rock Forums
 description: |-
   The official forums for Turtle Rock Studios, creators of Evolve, Left 4 Dead, and
     Face Your Fears
-userCount: 37025
+userCount: 37039
 icon: trs-forums.png
-activity: very high
+activity: high
 language: en
 ---

@@ -5,7 +5,7 @@ title: PagerDuty Community
 description: |-
   Get help setting up and using PagerDuty and our APIs, learn what others are doing
     to manage their infrastructure, code and incidents effectively, and more.
-userCount: 1978
+userCount: 2050
 icon: pagerduty-community.png
 activity: medium
 language: en

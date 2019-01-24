@@ -4,8 +4,8 @@ category: Programming
 title: Stimulus Discourse
 description: A place for questions and open discussion about the Stimulus JavaScript
   framework.
-userCount: 340
+userCount: 348
 icon: stimulus.png
-activity: low
+activity: medium
 language: en
 ---

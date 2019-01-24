@@ -4,7 +4,7 @@ category: Automobiles
 title: Car Talk Community
 description: Car Talk Community. Car advice, tips, troubleshooting, and answers to
   your car questions.
-userCount: 156412
+userCount: 156910
 icon: cartalk.png
 activity: very high
 language: en

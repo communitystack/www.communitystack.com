@@ -3,8 +3,8 @@ address: https://discourse.huel.com
 category: Food
 title: Huel
 description: A forum for Huel users in North America to discuss all things Huel!
-userCount: 2572
+userCount: 2684
 icon: huel-us.png
-activity: medium
+activity: high
 language: en
 ---
