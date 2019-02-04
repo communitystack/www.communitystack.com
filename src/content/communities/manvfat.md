@@ -6,7 +6,7 @@ description: |-
   MAN v FAT TALK is a weight loss forum for men, that brings together normal(ish) men
     who want to lose weight, get fitter and be healthy. Join us and start your own battle
     against fat.
-userCount: 10725
+userCount: 10859
 icon: manvfat.png
 activity: very high
 language: en
