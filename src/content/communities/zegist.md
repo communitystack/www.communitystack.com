@@ -7,7 +7,7 @@ description: |-
   Share stories that matter to you on zegist.com. Make new friends, discuss your opinions
     openly or anonymously and enjoy conversations. Now with relationships, news, health,
     faith and funny gist.
-userCount: 6592
+userCount: 6610
 icon: zegist.png
 activity: medium
 language: en
