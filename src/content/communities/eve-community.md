@@ -6,6 +6,6 @@ description: The official community for Eve. Next flagship killer device is deve
   here!
 userCount: 7927
 icon: eve-community.png
-activity: medium
+activity: high
 language: en
 ---
