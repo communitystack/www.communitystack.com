@@ -1,5 +1,4 @@
 version: 2.1
-
 workflows:
   main:
     jobs:
@@ -10,11 +9,10 @@ workflows:
           filters:
             branches:
               only: master
-
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:0.53
+      - image: cibuilds/hugo:0.54
     steps:
       - checkout
       - run:
@@ -30,7 +28,7 @@ jobs:
 
   deploy:
     docker:
-      - image: cibuilds/hugo:0.53
+      - image: cibuilds/hugo:0.54
     steps:
       - attach_workspace:
           at: src
