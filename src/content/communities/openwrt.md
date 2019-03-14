@@ -3,7 +3,7 @@ address: https://forum.openwrt.org
 category: Software
 title: OpenWrt Forum
 description: OpenWrt - Wireless Freedom
-userCount: 12288
+userCount: 13021
 icon: openwrt.png
 activity: very high
 language: en
