@@ -3,8 +3,8 @@ address: https://community.gemsofwar.com
 category: Gaming
 title: Gems of War | Forums
 description: Chat with fellow Gems of Wars players!
-userCount: 12621
+userCount: 12823
 icon: gemsofwar.png
-activity: high
+activity: very high
 language: en
 ---

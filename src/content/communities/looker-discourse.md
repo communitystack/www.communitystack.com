@@ -3,7 +3,7 @@ address: https://discourse.looker.com
 category: Software
 title: Looker Community
 description: Questions by the Looker community answered by Looker experts
-userCount: 5615
+userCount: 5831
 icon: looker-discourse.png
 activity: medium
 language: en
