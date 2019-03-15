@@ -20,7 +20,7 @@ main{
 @media(max-width: 950px){
 
 	main{
-		padding: 1px 0 10px;
+		padding: 1px 3% 10px;
 		width: 100%;
 	}
 		body.section-communities main.list .communities{
@@ -38,7 +38,7 @@ main{
 @media(max-width: 850px){
 
 	main{
-		padding: 1px 0 10px;
+		padding: 1px 2% 10px;
 		width: 100%;
 	}
 		body.section-communities main.list .communities{

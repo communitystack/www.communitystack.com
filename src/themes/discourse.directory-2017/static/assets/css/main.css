@@ -48,7 +48,7 @@ body > header{
 	body > header ul{
 		margin: 0 auto;
 		padding: 0;
-		width: 279px;
+		width: 280px;
 		overflow: auto;
 	}
 		body > header li{
@@ -254,6 +254,19 @@ body.section-plugins main.list .communities{
 		.pager a.older{
 			float: right;
 		}
+
+form{
+}
+	form input,
+	form textarea{
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	form textarea{
+		width: 300px;
+		height: 150px;
+	}
 
 
 
