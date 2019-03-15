@@ -28,6 +28,11 @@ description = "A directory of Discourse communities around the Internet."
 	weight	= 5
 
 [[menu.main]]
-	name	= "Submit"
-	url		= "/submit"
-	weight	= 10
+	name	= "Hosting"
+	url		= "/hosting"
+	weight	= 6
+
+#[[menu.main]]
+#	name	= "Submit"
+#	url		= "/submit"
+#	weight	= 10
