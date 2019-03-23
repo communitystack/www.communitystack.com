@@ -6,7 +6,7 @@ title: Jekyll Talk
 description: |-
   A place for the Jekyll community to ask questions, get help, and share their wonderful
     creations!
-userCount: 1163
+userCount: 1174
 icon: jekyll.png
 activity: medium
 language: en

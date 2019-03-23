@@ -3,8 +3,8 @@ address: https://eve.community
 category: Computer Hardware
 title: Eve Community
 description: The official community for Eve.
-userCount: 7925
+userCount: 8004
 icon: eve-community.png
-activity: medium
+activity: high
 language: en
 ---

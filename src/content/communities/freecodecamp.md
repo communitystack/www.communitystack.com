@@ -3,7 +3,7 @@ address: https://www.freecodecamp.org/forum
 category: Programming
 title: The freeCodeCamp Forum
 description: A place to hang out, learn to code, and get a developer job
-userCount: 180957
+userCount: 181863
 icon: freecodecamp.png
 activity: very high
 language: en
