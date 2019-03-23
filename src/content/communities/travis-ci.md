@@ -3,7 +3,7 @@ address: https://travis-ci.community
 category: Software
 title: Travis CI Community
 description: Travis CI Community
-userCount: 1423
+userCount: 1490
 icon: travis-ci.png
 activity: medium
 language: en
