@@ -1,11 +1,11 @@
 ---
 name: Linkin Park
-address: https://forum.linkinpark.com
+address: https://forums.lpunderground.com
 category: Music
-title: Linkin Park Forums
+title: Linkin Park / LPU Forums
 description: LP / LPU Forums
-userCount: 126533
+userCount: 117882
 icon: linkin-park.png
-activity: very high
+activity: high
 language: en
 ---
