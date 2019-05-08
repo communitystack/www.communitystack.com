@@ -4,7 +4,7 @@ address: https://forums.theanimenetwork.com
 category: Anime & Manga
 title: AN Forums
 description: ""
-userCount: 171359
+userCount: 170855
 icon: anime-network.jpeg
 activity: high
 language: en

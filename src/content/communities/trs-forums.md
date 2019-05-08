@@ -3,10 +3,10 @@ address: https://talk.turtlerockstudios.com
 category: Gaming
 title: Turtle Rock Forums
 description: |-
-  The official forums for Turtle Rock Studios, creators of Evolve, Left 4 Dead, and
-    Face Your Fears
-userCount: 34827
-icon: trs-forums.png
-activity: very high
+  The official forums for Turtle Rock Studios, creators of Back 4 Blood, Left 4 Dead,
+    Face Your Fears, Journey of the Gods, and Evolve.
+userCount: 30537
+icon: trs-forums.jpeg
+activity: high
 language: en
 ---
