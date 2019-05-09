@@ -1,6 +1,6 @@
 ---
 address: https://discourse.gnome.org
-category: software
+category: Software
 title: GNOME Discourse
 description: GNOME Project and Community related discussions
 userCount: 633
