@@ -1,5 +1,5 @@
 ---
-address: https://community.ubuntu.com
+address: https://discourse.ubuntu.com
 category: Linux
 title: Ubuntu Community Hub
 description: The meeting point for the Ubuntu community.
