@@ -7,5 +7,5 @@ description: A community for Google Chrome developers. Chrome Extensions, Chrome
 userCount: 10
 icon: chromedevs.png
 activity: low
-language: en
+language: en_US
 ---

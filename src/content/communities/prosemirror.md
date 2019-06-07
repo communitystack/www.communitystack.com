@@ -3,8 +3,8 @@ address: https://discuss.prosemirror.net
 category: Software
 title: discuss.ProseMirror
 description: Discussion around the ProseMirror editor project
-userCount: 700
+userCount: 725
 icon: prosemirror.png
 activity: medium
-language: en
+language: en_US
 ---

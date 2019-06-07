@@ -5,8 +5,8 @@ title: Turtle Rock Forums
 description: |-
   The official forums for Turtle Rock Studios, creators of Back 4 Blood, Left 4 Dead,
     Face Your Fears, Journey of the Gods, and Evolve.
-userCount: 30537
+userCount: 30551
 icon: trs-forums.jpeg
-activity: high
+activity: very high
 language: en
 ---

@@ -2,10 +2,10 @@
 name: Hugo Discussion
 address: https://discourse.gohugo.io
 category: Software
-title: Hugo Discussion
+title: Hugo
 description: Support and discussion about the Hugo static site builder.
-userCount: 6429
+userCount: 6530
 icon: hugo.png
 activity: high
-language: en
+language: en_US
 ---

@@ -6,8 +6,8 @@ title: Folksy Forums
 description: |-
   A place to chat about art, craft and making. Network with other makers, share expertise
     and help each other out with tips for selling on Folksy.com
-userCount: 7556
+userCount: 7588
 icon: talk-folksy.png
 activity: high
-language: en
+language: en_US
 ---

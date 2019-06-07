@@ -5,8 +5,8 @@ title: CircleCI Discuss
 description: |-
   A place to discuss Testing, Continuous Integration, and Continuous Delivery using
     the CircleCI Platform.
-userCount: 14920
+userCount: 15000
 icon: circleci.png
 activity: high
-language: en
+language: en_US
 ---
