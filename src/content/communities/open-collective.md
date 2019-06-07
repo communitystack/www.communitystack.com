@@ -3,8 +3,8 @@ address: https://forum.opencollective.com/
 category: Software
 title: Open Collective
 description: A group of people with a shared mission that operates in full transparency.
-userCount: 38
+userCount: 41
 icon: open-collective.png
-activity: dead
-language: en
+activity: low
+language: en_US
 ---
