@@ -5,7 +5,7 @@ title: Discuss the Elastic Stack
 description: |-
   Discussion forums, mailing lists, and user groups for Elasticsearch, Beats, Logstash,
     Kibana, ES-Hadoop, X-Pack, Cloud and other products in the Elastic ecosystem.
-userCount: 71214
+userCount: 71780
 icon: elastic-stack.png
 activity: very high
 language: en_US

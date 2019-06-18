@@ -5,8 +5,8 @@ title: Hopscotch Forum
 description: |-
   Get help, collaborate, and share tips about making games and coding in the Hopscotch
     Forum.
-userCount: 5084
+userCount: 5032
 icon: hopscotch.png
 activity: very high
-language: en
+language: en_US
 ---

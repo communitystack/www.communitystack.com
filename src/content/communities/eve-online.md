@@ -5,7 +5,7 @@ title: EVE Online Forums
 description: |-
   Player-created empires, player-driven markets, and endless ways to embark on your
     personal sci-fi adventure.
-userCount: 86972
+userCount: 87993
 icon: eve-online.png
 activity: very high
 language: en_US

@@ -5,8 +5,8 @@ title: SecOps Hub
 description: |-
   SecOps Hub is a one-stop shop for security professionals to discuss strategies, incident
     response best practices, and ways to simplify it all through automation.
-userCount: 601
+userCount: 620
 icon: secops-hub.png
-activity: low
+activity: medium
 language: en_US
 ---
