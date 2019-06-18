@@ -3,8 +3,8 @@ address: https://www.thethingsnetwork.org/forum/
 category: IoT
 title: The Things Network
 description: The Things Network forum
-userCount: 14142
-icon: the-things-network.png
+userCount: 13331
+icon: "the-things-network.png"
 activity: high
-language: en
+language: en_US
 ---

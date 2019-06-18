@@ -1,9 +1,9 @@
 ---
 address: https://discourse.elm-lang.org
 category: Programming
-title: Elm Discourse
+title: Elm
 description: Discuss anything Elm related, from beginner questions to compiler design.
-userCount: 1715
+userCount: 1729
 icon: elm.png
 activity: medium
 language: en_US
