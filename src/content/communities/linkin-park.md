@@ -2,10 +2,10 @@
 name: Linkin Park
 address: https://forums.lpunderground.com
 category: Music
-title: Linkin Park / LPU Forums
-description: LP / LPU Forums
-userCount: 116179
+title: "null"
+description: "null"
+userCount: "null"
 icon: linkin-park.png
-activity: very high
-language: en_US
+activity: dead
+language: "null"
 ---

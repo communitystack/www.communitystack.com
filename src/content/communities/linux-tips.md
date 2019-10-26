@@ -4,7 +4,7 @@ address: https://linux-tips.com
 category: Linux
 title: Linux Tips
 description: Discussion about the Linux in general
-userCount: 160
+userCount: 148
 icon: linux-tips.png
 activity: dead
 language: en_US
