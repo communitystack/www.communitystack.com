@@ -2,13 +2,13 @@
 name: Nomad List
 address: https://nomadlist.com/forum
 category: Lifestyle
-title: Digital Nomad Forum
+title: Nomad List
 description: |-
-  The Digital Nomad Forum is a a question and answer site for digital nomads and remote
-    workers to exchange information on working remotely from different places around
-    the world such as Chiang Mai, Bangkok, Bali and Medellin.
-userCount: 7340
+  Nomad List's forum is a a question and answer platform for remote workers to exchange
+    information on working remotely from different places around the world such as Chiang
+    Mai, Bangkok, Bali and Medellin.
+userCount: 7615
 icon: nomad-list.png
 activity: medium
-language: en
+language: en_US
 ---

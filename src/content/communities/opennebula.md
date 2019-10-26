@@ -7,7 +7,7 @@ description: |-
     enterprise-ready solution to manage data center virtualization and build IaaS clouds.
     This is the best place for community support and general ongoing discussions about
     features.
-userCount: 1701
+userCount: 1769
 icon: opennebula.jpeg
 activity: medium
 language: en_US

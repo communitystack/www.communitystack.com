@@ -5,8 +5,8 @@ title: UrBackup - Discourse
 description: |-
   Forums for UrBackup - The Client/Server Open Source Network Backup System for Windows
     and Linux
-userCount: 2692
+userCount: 2613
 icon: urbackup.png
 activity: medium
-language: en
+language: en_US
 ---
