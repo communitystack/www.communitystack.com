@@ -5,7 +5,7 @@ title: Schizophrenia.com
 description: |-
   Schizophrenia Discussion Community for People Diagnosed, or who think they may have
     Psychosis.
-userCount: 8890
+userCount: 8948
 icon: schizophrenia.png
 activity: very high
 language: en_US

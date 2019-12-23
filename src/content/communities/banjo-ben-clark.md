@@ -4,8 +4,8 @@ category: Music
 title: Forum - Banjo Ben Clark
 description: BanjoBenClark.com– Your online home for quality instruction and musical
   goods!
-userCount: 4016
+userCount: 4168
 icon: banjo-ben-clark.png
-activity: medium
+activity: high
 language: en_US
 ---
