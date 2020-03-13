@@ -3,12 +3,10 @@ address: https://forum.opennebula.org
 category: Software
 title: OpenNebula Community
 description: |-
-  This is a discussion area for OpenNebula, an open source project that develops a turnkey
-    enterprise-ready solution to manage data center virtualization and build IaaS clouds.
-    This is the best place for community support and general ongoing discussions about
-    features.
-userCount: 1796
-icon: opennebula.jpeg
+  This is the Community Forum of the OpenNebula Project, the open source enterprise-ready
+    solution for building elastic Private Clouds and managing Data Center virtualization.
+userCount: 1843
+icon: opennebula.png
 activity: medium
 language: en_US
 ---

@@ -6,7 +6,7 @@ description: |-
   Huel is the simple, easy and sustainable way to consume a healthy, balanced diet.
     It’s It's been formulated by a renowned nutrition expert to include the perfect
     balance of carbs, fat and protein and all the vitamins and minerals your body needs.
-userCount: 9047
+userCount: 9307
 icon: huel-global.jpeg
 activity: high
 language: en_US

@@ -4,7 +4,7 @@ category: Graphics
 title: 3D Slicer Community
 description: Discussion of 3D Slicer open source visualization software, and related
   projects.
-userCount: 3045
+userCount: 3325
 icon: slicer.png
 activity: high
 language: en_US
