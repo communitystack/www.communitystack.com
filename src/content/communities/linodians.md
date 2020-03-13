@@ -6,6 +6,6 @@ title: Linodians Discuss
 description: Community discussion and support for Linode users.
 userCount: 8
 icon: linodians.png
-activity: low
+activity: dead
 language: en_US
 ---

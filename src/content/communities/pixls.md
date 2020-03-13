@@ -3,8 +3,8 @@ address: https://discuss.pixls.us
 category: Media
 title: discuss.pixls.us
 description: Discussion forum for PIXLS.US
-userCount: 3913
+userCount: 4214
 icon: pixls.png
-activity: high
+activity: very high
 language: en_US
 ---
