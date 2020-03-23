@@ -4,8 +4,8 @@ category: Programming
 title: Kotlin Discussions
 description: Kotlin is a statically typed programming language for the JVM, Android
   and the browser.
-userCount: 7740
+userCount: 7752
 icon: kotlin.png
-activity: high
+activity: medium
 language: en_US
 ---

@@ -7,7 +7,7 @@ description: |-
     et demandez de l''aide dans nos forums. Parlez de tout ce qui concerne l''univers
     du jeu vidéo dans son ensemble : consoles, PC, jeu mobile, VR, rétrogaming, tips,
     soluces et de bien d''autres sujets !'
-userCount: 556856
+userCount: 556906
 icon: gamekult.png
 activity: very high
 language: fr
