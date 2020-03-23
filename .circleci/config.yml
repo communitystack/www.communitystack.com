@@ -12,7 +12,7 @@ workflows:
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:0.58.3
+      - image: cibuilds/hugo:0.68
     steps:
       - checkout
       - run:
@@ -28,7 +28,7 @@ jobs:
 
   deploy:
     docker:
-      - image: cibuilds/hugo:0.58.3
+      - image: cibuilds/hugo:0.68
     steps:
       - attach_workspace:
           at: src
