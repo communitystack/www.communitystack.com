@@ -1,6 +1,6 @@
 ---
 address: http://forum.pokemongohub.net
-category: Games
+category: Gaming
 title: GO Hub Forum
 description: |-
   The official forum for Pokémon GO Hub, the biggest Pokémon GO forum in the world with
