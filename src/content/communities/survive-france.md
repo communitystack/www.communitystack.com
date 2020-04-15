@@ -5,8 +5,8 @@ title: Survive France
 description: |-
   Survive France is the complete expats in France website. We have the ultimate website
     for expats that includes forums, guides, tips & blogs. Sign up today!
-userCount: 12935
+userCount: 12947
 icon: survive-france.png
 activity: high
-language: en_US
+language: en
 ---
