@@ -3,7 +3,7 @@ address: https://forums.gearboxsoftware.com
 category: Gaming
 title: The Official Gearbox Software Forums
 description: The Official Gearbox Software Forums
-userCount: 4.30706e+06
+userCount: 4.353198e+06
 icon: gearbox-software.png
 activity: very high
 language: en_US
