@@ -4,8 +4,8 @@ address: https://ubuntu-mate.community
 category: Linux
 title: Ubuntu MATE Community
 description: For a retrospective future
-userCount: 8987
+userCount: 9317
 icon: ubuntu-mate.png
-activity: medium
+activity: high
 language: en
 ---

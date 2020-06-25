@@ -4,7 +4,7 @@ address: https://discourse.gohugo.io
 category: Software
 title: HUGO
 description: Support and discussion about the Hugo static site builder.
-userCount: 7839
+userCount: 8228
 icon: hugo.png
 activity: high
 language: en_US

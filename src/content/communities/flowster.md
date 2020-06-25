@@ -5,7 +5,7 @@ title: Flowster User Forum
 description: |-
   A place for eCommerce entrepreneurs to share ideas on how to take a more systematic
     approach to growth.
-userCount: 683
+userCount: 707
 icon: flowster.png
 activity: low
 language: en_US

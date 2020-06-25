@@ -5,7 +5,7 @@ title: Unbounce Community
 description: |-
   Connect with savvy marketers from around the world to discuss landing pages, conversion
     rate optimization, a/b testing and all things marketing.
-userCount: 23425
+userCount: 23893
 icon: unbounce.png
 activity: high
 language: en_US
