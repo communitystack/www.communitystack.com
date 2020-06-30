@@ -1,7 +1,7 @@
 ---
 name: Jekyll
 address: https://talk.jekyllrb.com
-category: Software
+category: "Static Site Generators"
 title: Jekyll Talk
 description: |-
   A place for the Jekyll community to ask questions, get help, and share their wonderful
