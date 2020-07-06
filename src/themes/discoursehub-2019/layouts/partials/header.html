@@ -1,0 +1,20 @@
+<header>
+	<nav>
+		<a class="site-title" href="{{ .Site.BaseURL  }}">{{ .Site.Title }}</a>
+		<ul class="menu h main">
+		{{ $currentNode := . }}
+			<li><a href="{{ .Site.BaseURL  }}"><i class="fas fa-home"></i></a></li>
+		{{ range .Site.Menus.main }}
+			<li class="{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{ end }}">
+				<a href="{{ .URL }}">{{ .Name }}</a>
+			</li>
+		{{ end }}
+			<li class="social-links">
+			{{ range .Site.Menus.social }}
+				<a href="{{ .URL }}"><i class="fab fa-{{ .Name }}"></i></a>
+			{{ end }}
+			</li>
+		</ul>
+		<a class="toggle"><span class="fas fa-bars"></span></a>
+	</nav>
+</header>

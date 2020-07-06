@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="{{ "vendor/sanitize-8.0/sanitize.css" | absURL }}" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One%7CLato" />
+{{- $style := resources.Get "css/main.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" />
+{{- if .IsHome }}
+	{{- $style := resources.Get "css/homepage.scss" | toCSS | minify | fingerprint }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}" />
+{{ end }}
+{{- $style := resources.Get "css/mobile.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" media="(max-width:1000px)" />
