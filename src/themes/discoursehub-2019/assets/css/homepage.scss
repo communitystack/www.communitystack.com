@@ -1,0 +1,112 @@
+@import "colors";
+
+
+
+#segment-1{
+	background-color: $primary-color;
+	padding-top: 100px;
+	height: 400px;
+	color: white;
+	text-align: center;
+	font-size: 2.0rem;
+
+	h1{
+		margin: 0;
+		font-size: 5.5rem;
+	}
+
+	p{
+		margin: 0 auto;
+		width: 40%;
+	}
+}
+
+#segment-2{
+	text-align: center;
+
+	h2{
+		color: $primary-color;
+	}
+
+	ol{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		padding: 0;
+		list-style: none;
+		counter-reset: cust-count;
+
+		li{
+			margin: 0;
+			width: 30%;
+			text-align: left;
+			counter-increment: cust-count;
+
+			strong{
+				font-size: larger;
+			}
+
+			span{
+				display: block;
+				margin-top: 10px;
+			}
+		}
+
+		li::before{
+			display: inline-block;
+			margin-right: 10px;
+			border-radius: 50%;
+			background-color: $secondary-color;
+			width: 28px;
+			height: 28px;
+			line-height: 28px;
+			text-align: center;
+			font-size: smaller;
+			font-weight: bold;
+			content: counter(cust-count);
+		}
+	}
+}
+
+
+
+/************************************************
+ * <= 1000px width
+ * *********************************************/
+@media(max-width: 1000px){
+	#segment-1 p{
+		width: 50%;
+	}
+}
+
+
+/************************************************
+ * <= 850px width
+ * *********************************************/
+@media(max-width: 850px){
+	#segment-1 p{
+		width: 60%;
+	}
+}
+
+
+/************************************************
+ * <= 700px width
+ * *********************************************/
+@media(max-width: 700px){
+	#segment-1 h1{
+		font-size: 4.0rem;
+	}
+
+	#segment-2 ol li{
+		padding: 0 20px;
+		width: 100%;
+	}
+}
+
+
+/************************************************
+ * <= 600px width
+ * *********************************************/
+@media(max-width: 600px){
+}

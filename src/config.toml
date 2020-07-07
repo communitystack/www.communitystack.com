@@ -1,21 +1,19 @@
-baseURL = "https://Discourse.Directory"
+baseURL = "https://DiscourseHub.com"
 languageCode = "en-us"
 title = "DiscourseHub"
 
-theme = "discourse.directory-2017"
+theme = "discoursehub-2019"
 googleAnalytics = "UA-107057228-1"
 
 enableEmoji = true
 
-[blackfriday]
-	hrefTargetBlank	=	true
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
 
 [params]
-description = "A directory of Discourse communities around the Internet."
-
-
-[social]
-	twitter = "FelicianoTech"
+description = "A directory of Discourse communities around the Internet and an affordable place to host your own Discourse forum."
 
 [[menu.main]]
 	name	= "Communities"

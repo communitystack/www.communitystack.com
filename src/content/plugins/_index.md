@@ -1,3 +1,4 @@
 ---
 title: "Plugins"
+layout: "communities"
 ---

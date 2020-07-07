@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main class="list">
+<h1>{{ .Title }}</h1>
+		<div class="content-items communities">
+		{{ range sort .Pages }}
+			<div class="content-item community">
+				<header>
+					<h3>{{ .Title }}</h3>
+				</header>
+				<p>{{ .Description }}</p>
+				<footer>
+					<div><a class="button" href="{{ .Params.address }}" title="Visit {{ .Title }}" target="_blank">Check out Plugin <i class="fa fa-arrow-right"></i></a></div>
+				</footer>
+			</div>
+		{{ end }}
+		</div>
+</main>
+{{ end }}

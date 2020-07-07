@@ -1,0 +1,38 @@
+{{- define "main" }}
+<main class="full">
+	<div id="segment-1" class="segment">
+		<h1>{{ .Site.Title }}</h1>
+		<p>{{ .Site.Params.Description }}</p>
+	</div>
+	<div id="segment-2" class="segment">
+		<h2>150 Discourse communities and counting...</h2>
+		<ol>
+			<li>
+				<strong>Find a community</strong>
+				<span>Explore 150+ communities to find one that covers a topic or hobby that interests you.</span>
+			</li>
+			<li>
+				<strong>Browse Discourse Plugins</strong>
+				<span>Find plugins that expands the capabilities of your Discourse forum.</span>
+			</li>
+			<li>
+				<strong>Start a Discourse Forum</strong>
+				<span>Ready to start a new Discourse community? <a href="/hosting">Host it with DiscourseHub</a>.</span>
+			</li>
+		</ol>
+		<a class="button" href="/communities">Browse Communities</a>
+	</div>
+	<div id="segment-3" class="segment">
+		<h2>Stay in touch DiscourseHub</h2>
+		<!-- Begin Mailchimp Signup Form -->
+		<div id="mc_embed_signup">
+			<form action="//DiscourseHub.us18.list-manage.com/subscribe/post?u=fd4845931149ff9ee0ebae0bb&amp;id=2083d3f029" method="GET" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate slim newsletter" target="_blank" novalidate>
+				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8243af0721fc7233cc3687a17_139259d498" tabindex="-1" value="" /></div>
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required />
+				<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+			</form>
+		</div>
+	</div>
+</main>
+{{ end }}

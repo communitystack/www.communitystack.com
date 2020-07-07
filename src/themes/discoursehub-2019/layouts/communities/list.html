@@ -1,0 +1,25 @@
+{{ define "main" }}
+<main class="list">
+<h1>{{ .Title }}</h1>
+	{{ range .Data.Pages.GroupByParam "category" }}
+		<h2>&ndash; {{ .Key }} &ndash;</h2>
+		<div class="content-items communities">
+		{{ range sort .Pages }}
+			<div class="content-item community">
+				<header>
+					<img src="/assets/img/community-icons/{{ .Params.icon }}" alt="" />
+					<h3>{{ .Title }}</h3>
+				</header>
+				<p>{{ .Description }}</p>
+				<footer>
+					<div><span>{{ lang.NumFmt 0 .Params.userCount }}</span>members</div>
+					<div><span>{{ .Params.activity }}</span>activity</div>
+					<div><span>{{ .Params.language }}</span>language</div>
+					<div><a class="button" href="{{ .Params.address }}" title="Visit {{ .Title }}" target="_blank">Visit Site <i class="fa fa-arrow-right"></i></a></div>
+				</footer>
+			</div>
+		{{ end }}
+		</div>
+	{{ end }}
+</main>
+{{ end }}
