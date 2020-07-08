@@ -68,6 +68,15 @@
 	}
 }
 
+#segment-3{
+	background-color: $tertiary-color;
+	text-align: center;
+
+	a.button{
+		background-color: $primary-color;
+	}
+}
+
 
 
 /************************************************
@@ -99,6 +108,7 @@
 	}
 
 	#segment-2 ol li{
+		margin-bottom: 10px;
 		padding: 0 20px;
 		width: 100%;
 	}
