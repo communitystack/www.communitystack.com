@@ -11,6 +11,25 @@ main.single{
 	}
 }
 
+	body.section-communities main.list .communities{
+		margin: 5px 10px;
+	}
+		body.section-communities main.list .community{
+			width: 48%;
+		}
+
+/************************************************
+ * <= 850px width
+ * *********************************************/
+@media(max-width: 950px){
+		body.section-communities main.list .communities{
+			margin: 5px 5px;
+		}
+			body.section-communities main.list .community{
+				width: 49%;
+			}
+}
+
 /************************************************
  * <= 850px width
  * *********************************************/
@@ -49,6 +68,14 @@ main.single{
 	body.section-blog{
 		padding-bottom: 48px; /* Make space for social share buttons. */
 	}
+
+		body.section-communities main.list .communities{
+			margin: 5px 15px;
+		}
+			body.section-communities main.list .community{
+				margin: 25px auto 5px;
+				width: 98%;
+			}
 }
 
 
