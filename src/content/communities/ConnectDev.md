@@ -1,5 +1,5 @@
 ---
-address: https://connectdev.discourse.group/
+address: https://connectdev.discourse.group
 category: Programming
 title: ConnectDev
 description: Connecting developers!
