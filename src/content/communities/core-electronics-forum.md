@@ -5,7 +5,7 @@ title: Core Electronics Forum
 description: |-
   Core Electronics forum for makers and educators interested with electronics around
     Australia.
-userCount: 4043
+userCount: 4228
 icon: core-electronics-forum.png
 activity: medium
 language: en_US

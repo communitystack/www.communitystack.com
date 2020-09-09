@@ -7,6 +7,6 @@ description: |-
     metrics, integrations and anything related to the #monitoringlove culture.'
 userCount: 1995
 icon: monitoring-portal.png
-activity: low
+activity: dead
 language: en_US
 ---
