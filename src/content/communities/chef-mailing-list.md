@@ -3,7 +3,7 @@ address: https://discourse.chef.io
 category: Software
 title: Chef Questions
 description: Connect with the Chef Community
-userCount: 4213
+userCount: 4233
 icon: chef-mailing-list.png
 activity: medium
 language: en_US

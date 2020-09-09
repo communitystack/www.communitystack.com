@@ -2,8 +2,8 @@
 address: https://forum.manjaro.org
 category: Linux
 title: Manjaro Linux Forum
-description: Home of the Manjaro community
-userCount: 31436
+description: Enjoy the simplicity
+userCount: 17015
 icon: manjaro.png
 activity: very high
 language: en

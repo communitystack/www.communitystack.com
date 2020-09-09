@@ -6,8 +6,8 @@ title: New Relic Explorers Hub
 description: |-
   Get help using New Relic products and discuss application performance in our Community
     Forum
-userCount: 228080
+userCount: 237644
 icon: new-relic.png
-activity: high
+activity: very high
 language: en_US
 ---

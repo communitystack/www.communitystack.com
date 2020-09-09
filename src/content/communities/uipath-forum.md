@@ -6,7 +6,7 @@ title: UiPath Community Forum
 description: |-
   Find the solution, ask questions, help others and stay up to date about our products
     and community initiatives.
-userCount: 73902
+userCount: 78202
 icon: uipath-forum.png
 activity: very high
 language: en_US

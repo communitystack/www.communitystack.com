@@ -4,8 +4,8 @@ address: http://forum.writethedocs.org
 category: Community
 title: Write the Docs Forum
 description: The public forum for writethedocs.org
-userCount: 446
+userCount: 440
 icon: write-the-docs.png
-activity: dead
+activity: low
 language: en_US
 ---
