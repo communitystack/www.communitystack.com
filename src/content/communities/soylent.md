@@ -4,8 +4,8 @@ category: Food
 title: Soylent Community
 description: '''Official discussion forum for Soylent: Simple, healthy, affordable
   food.'''
-userCount: 9494
+userCount: 9522
 icon: soylent.png
-activity: low
+activity: medium
 language: en_US
 ---

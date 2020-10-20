@@ -3,7 +3,7 @@ address: https://devforum.zoom.us
 category: Software
 title: Zoom Developer Forum
 description: Post your questions on the Forum and get help from Zoom Developer Support.
-userCount: 14508
+userCount: 16882
 icon: zoom.png
 activity: very high
 language: en_US

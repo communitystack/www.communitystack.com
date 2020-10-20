@@ -1,9 +1,9 @@
 ---
 address: https://elixirforum.com
 category: Programming
-title: Elixir Forum
+title: Elixir Programming Language Forum
 description: The Elixir Forum - for Elixir programming language enthusiasts!
-userCount: 14781
+userCount: 15062
 icon: elixir-forum.png
 activity: high
 language: en_US

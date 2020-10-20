@@ -4,8 +4,8 @@ address: https://community.confessionsofahomeschooler.com
 category: Education
 title: COAH Community
 description: Get help homeschooling and discuss topics in our Community Forum
-userCount: 2078
+userCount: 2086
 icon: confessions-of-a-homeschooler.jpeg
-activity: medium
+activity: low
 language: en_US
 ---

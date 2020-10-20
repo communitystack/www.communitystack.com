@@ -5,7 +5,7 @@ title: Node-RED Forum
 description: |-
   A place for the Node-RED community to discuss the project, help each other out and
     be good.
-userCount: 10183
+userCount: 10656
 icon: node-red.svg
 activity: very high
 language: en

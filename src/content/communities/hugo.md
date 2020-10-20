@@ -4,7 +4,7 @@ address: https://discourse.gohugo.io
 category: Static Site Generators
 title: HUGO
 description: Support and discussion about the Hugo static site builder.
-userCount: 8611
+userCount: 8756
 icon: hugo.png
 activity: high
 language: en_US

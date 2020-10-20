@@ -3,7 +3,7 @@ address: https://forum.restic.net
 category: Software
 title: restic forum
 description: Discussions about and support for the restic backup program
-userCount: 987
+userCount: 1036
 icon: restic.png
 activity: medium
 language: en_US
