@@ -2,11 +2,9 @@
 address: https://forum.core-electronics.com.au
 category: Electronics
 title: Core Electronics Forum
-description: |-
-  Core Electronics forum for makers and educators interested with electronics around
-    Australia.
-userCount: 4228
+description: A place to discuss maker projects, technologies and skills.
+userCount: 4329
 icon: core-electronics-forum.png
 activity: medium
-language: en_US
+language: en
 ---

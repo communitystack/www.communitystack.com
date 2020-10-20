@@ -3,8 +3,8 @@ address: https://discourse.ros.org
 category: Robotics
 title: ROS Discourse
 description: The ROS discussion forum
-userCount: 5736
+userCount: 5889
 icon: ros.png
-activity: high
+activity: medium
 language: en_US
 ---

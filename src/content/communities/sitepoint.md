@@ -5,7 +5,7 @@ title: SitePoint Forums | Web Development & Design Community
 description: |-
   A community for web designers and developers to discuss everything from HTML, CSS,
     JavaScript, PHP, to Photoshop, SEO and more.
-userCount: 260153
+userCount: 260092
 icon: sitepoint.png
 activity: high
 language: en_US

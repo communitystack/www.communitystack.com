@@ -5,6 +5,6 @@ title: Gotham Hub
 description: The place to discuss, learn, and teach about Gotham, a static site generator.
 userCount: 3
 icon: gotham-hub.png
-activity: low
+activity: dead
 language: en_US
 ---

@@ -5,7 +5,7 @@ title: Sponge Forums
 description: |-
   'Sponge: A new Minecraft modding API combining the strengths of the server and client
     modding communities.'
-userCount: 13514
+userCount: 13605
 icon: sponge.png
 activity: medium
 language: en_US
