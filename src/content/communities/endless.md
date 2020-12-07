@@ -3,8 +3,8 @@ address: https://community.endlessos.com
 category: Activism
 title: Endless Community
 description: Powered by Bitnami
-userCount: 5096
+userCount: 5280
 icon: endless.jpg
-activity: medium
+activity: high
 language: en_US
 ---
