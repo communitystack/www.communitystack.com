@@ -1,11 +1,11 @@
 ---
 address: https://forum.flowster.app
 category: E-Commerce
-title: Flowster User Forum
+title: eCommerce Sellers Forum
 description: |-
-  A place for eCommerce entrepreneurs to share ideas on how to take a more systematic
+  A platform for eCommerce entrepreneurs to share ideas on how to take a more systematic
     approach to growth.
-userCount: 752
+userCount: 764
 icon: flowster.png
 activity: low
 language: en_US

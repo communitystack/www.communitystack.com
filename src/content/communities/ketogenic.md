@@ -3,8 +3,8 @@ address: https://www.ketogenicforums.com
 category: Food
 title: Ketogenic Forums
 description: A place for discussions around ketogenic metabolism
-userCount: 35633
+userCount: 35143
 icon: ketogenic.png
-activity: very high
+activity: high
 language: en
 ---
