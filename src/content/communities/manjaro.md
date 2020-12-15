@@ -3,7 +3,7 @@ address: https://forum.manjaro.org
 category: Linux
 title: Manjaro Linux Forum
 description: Enjoy the simplicity
-userCount: 12869
+userCount: 12844
 icon: manjaro.png
 activity: very high
 language: en

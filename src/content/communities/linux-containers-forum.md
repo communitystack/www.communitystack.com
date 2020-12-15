@@ -3,8 +3,8 @@ address: https://discuss.linuxcontainers.org
 category: Linux
 title: Linux Containers Forum
 description: Discussion forum for LXC, LXD and LXCFS,
-userCount: 2626
+userCount: 2635
 icon: linux-containers-forum.png
-activity: high
+activity: medium
 language: en_US
 ---

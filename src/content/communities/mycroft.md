@@ -3,7 +3,7 @@ address: https://community.mycroft.ai
 category: AI
 title: Mycroft Community Forum
 description: Mycroft AI Community Forum
-userCount: 3544
+userCount: 3559
 icon: mycroft.png
 activity: medium
 language: en_US
