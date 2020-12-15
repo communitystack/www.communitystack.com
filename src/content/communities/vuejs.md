@@ -3,7 +3,7 @@ address: https://forum.vuejs.org
 category: Frameworks
 title: Vue Forum
 description: Discuss Everything Vue.js!
-userCount: 41350
+userCount: 41383
 icon: vuejs.png
 activity: high
 language: en_US

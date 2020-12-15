@@ -3,7 +3,7 @@ address: https://forum.obsidian.md/
 category: Software
 title: Obsidian Forum
 description: A place for Obsidian users to discuss Obsidian and knowledge management
-userCount: 7173
+userCount: 7422
 icon: obsidian.png
 activity: high
 language: en_US

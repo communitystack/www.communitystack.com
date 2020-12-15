@@ -3,7 +3,7 @@ address: https://community.kodular.io
 category: Programming
 title: Kodular Community
 description: A place for Koders to share and discuss their thoughts
-userCount: 37543
+userCount: 37940
 icon: kodular.png
 activity: very high
 language: en
