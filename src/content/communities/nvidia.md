@@ -1,6 +1,6 @@
 ---
 address: https://forums.developer.nvidia.com/
-category: Technology
+category: "Programming"
 title: NVIDIA Developer Forums
 description: NVIDIA Developer Forums
 userCount: 733857
