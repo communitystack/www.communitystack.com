@@ -4,7 +4,7 @@ category: Software
 title: GitLab Forum
 description: Community Forum about GitLab, a single application for the entire DevOps
   lifecycle
-userCount: 19590
+userCount: 19903
 icon: gitlab.png
 activity: high
 language: en_US

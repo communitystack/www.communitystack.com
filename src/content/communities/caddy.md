@@ -3,8 +3,8 @@ address: https://caddy.community/
 category: Software
 title: Caddy Community
 description: Discussion about Caddy and the modern Web
-userCount: 3290
+userCount: 3353
 icon: caddy.png
-activity: high
+activity: medium
 language: en_US
 ---

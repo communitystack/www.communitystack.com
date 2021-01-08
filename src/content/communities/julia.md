@@ -4,7 +4,7 @@ category: Programming
 title: JuliaLang
 description: '''The Julia programming language forum: discuss usage, development,
   packages, and community.'''
-userCount: 11733
+userCount: 11960
 icon: julia.png
 activity: very high
 language: en_US
