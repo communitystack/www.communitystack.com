@@ -3,8 +3,8 @@ address: https://forum.openmandriva.org
 category: Linux
 title: OMA forum
 description: OpenMandriva forum
-userCount: 401
+userCount: 405
 icon: openmandriva.png
-activity: low
+activity: medium
 language: en_US
 ---
