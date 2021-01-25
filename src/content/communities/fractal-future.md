@@ -7,6 +7,6 @@ description: Envisioning and creating a better future by supporting visionary id
   and projects
 userCount: 433
 icon: fractal-future.png
-activity: medium
+activity: low
 language: en
 ---
