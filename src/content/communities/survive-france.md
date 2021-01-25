@@ -3,8 +3,8 @@ address: https://www.survivefrance.com
 category: Tourism
 title: Survive France
 description: Survive France is the largest anglophone forum for immigrants in France
-userCount: 13347
+userCount: 13366
 icon: survive-france.png
 activity: very high
-language: en
+language: en_GB
 ---

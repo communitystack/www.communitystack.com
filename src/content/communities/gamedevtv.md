@@ -5,7 +5,7 @@ title: GameDev.tv
 description: |-
   Our GameDev.tv Community page for students and instructors to help you on your GameDev
     journey
-userCount: 55299
+userCount: 55960
 icon: gamedevtv.png
 activity: very high
 language: en_US

@@ -7,5 +7,5 @@ description: Community discussion and support for Linode users.
 userCount: 9
 icon: linodians.png
 activity: dead
-language: en_US
+language: en
 ---

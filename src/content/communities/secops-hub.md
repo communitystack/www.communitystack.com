@@ -8,5 +8,5 @@ description: |-
 userCount: 706
 icon: secops-hub.png
 activity: low
-language: en_US
+language: en
 ---

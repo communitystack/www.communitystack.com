@@ -5,8 +5,8 @@ title: HellBound Bloggers (HBB) Forum
 description: |-
   HellBound Bloggers (HBB) Forum is your hub for all the Internet Marketing activities.
     We can talk about Blogging, Social Media, SEO, Affiliates, and more.
-userCount: 2030
+userCount: 2018
 icon: hellbound-bloggers.jpg
 activity: low
-language: en_US
+language: en
 ---
