@@ -1,4 +1,4 @@
 ---
-address: "https://forum.australia.cmu.edu/"
+address: "https://forum.australia.cmu.edu"
 category: "Community"
 ---
