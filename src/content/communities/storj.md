@@ -3,7 +3,7 @@ address: https://forum.storj.io/
 category: Hosting
 title: Storj Labs Community Forum
 description: Storj Labs and Tardigrade community forum
-userCount: 2824
+userCount: 2990
 icon: storj.png
 activity: high
 language: en_US

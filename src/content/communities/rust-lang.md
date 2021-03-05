@@ -3,8 +3,8 @@ address: https://users.rust-lang.org
 category: Programming
 title: The Rust Programming Language Forum
 description: General discussion of The Rust Programming Language
-userCount: 16930
+userCount: 17341
 icon: rust-lang.png
 activity: very high
-language: en_US
+language: en
 ---
