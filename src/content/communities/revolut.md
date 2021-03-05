@@ -5,8 +5,8 @@ title: Revolut Community
 description: |-
   Revolut community page forum; express your ideas, feedback, any bugs and experiences
     here
-userCount: 66735
+userCount: 65590
 icon: revolut.png
-activity: high
+activity: very high
 language: en_GB
 ---

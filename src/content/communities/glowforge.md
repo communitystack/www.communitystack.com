@@ -5,8 +5,8 @@ title: Glowforge Owners Forum
 description: |-
   Discussion of the Glowforge 3D laser printer, free laser designs, help and support,
     tricks and tips, and other laser cutting and engraving information.
-userCount: 37951
+userCount: 39305
 icon: glowforge.png
 activity: very high
-language: en_US
+language: en
 ---

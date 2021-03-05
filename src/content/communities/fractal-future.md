@@ -5,8 +5,8 @@ category: Activism
 title: Fractal Future Forum – Envisioning and creating a better future
 description: Envisioning and creating a better future by supporting visionary ideas
   and projects
-userCount: 433
+userCount: 436
 icon: fractal-future.png
-activity: low
+activity: medium
 language: en
 ---

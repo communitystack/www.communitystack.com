@@ -3,8 +3,8 @@ address: https://forums.serverbuilds.net
 category: Computer Hardware
 title: serverbuilds.net Forums
 description: A place for servers and stuff
-userCount: 3141
+userCount: 3308
 icon: serverbuilds-net.png
-activity: high
+activity: medium
 language: en
 ---
