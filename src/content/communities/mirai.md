@@ -5,7 +5,7 @@ title: Mirai Forum
 description: |-
   A community-based space to evolve our bonsai knowledge, learn, grow, and collaborate
     about all things Mirai and bonsai.
-userCount: 1782
+userCount: 1823
 icon: mirai.png
 activity: medium
 language: en

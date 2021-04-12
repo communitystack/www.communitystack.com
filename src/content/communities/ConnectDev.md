@@ -3,7 +3,7 @@ address: https://connectdev.discourse.group
 category: Programming
 title: ConnectDev
 description: Connecting developers!
-userCount: 159
+userCount: 161
 icon: ConnectDev.png
 activity: low
 language: en
