@@ -5,7 +5,7 @@ title: Kotlin Discussions
 description: |-
   Kotlin is a statically typed programming language for the JVM, Android and the browser
     sponsored and developed by JetBrains.
-userCount: 8852
+userCount: 8971
 icon: kotlin.png
 activity: medium
 language: en

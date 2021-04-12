@@ -5,7 +5,7 @@ title: Grafana Labs Community Forums
 description: |-
   Official Grafana Labs community forums. Get technical support for open source Grafana,
     Loki, and Tempo.
-userCount: 18622
+userCount: 19318
 icon: grafana.png
 activity: high
 language: en
