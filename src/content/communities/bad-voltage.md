@@ -4,8 +4,8 @@ address: https://community.badvoltage.org
 category: Podcasts
 title: Bad Voltage Community
 description: Tasty discussion for your eyes and brain
-userCount: 662
+userCount: 661
 icon: bad-voltage.png
-activity: low
+activity: dead
 language: en_US
 ---

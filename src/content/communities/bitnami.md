@@ -3,8 +3,8 @@ address: https://community.bitnami.com
 category: Software
 title: Bitnami Community
 description: Bitnami Community site
-userCount: 37876
+userCount: 30682
 icon: bitnami.png
 activity: high
-language: en
+language: en_US
 ---

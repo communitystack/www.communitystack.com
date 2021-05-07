@@ -3,7 +3,7 @@ address: https://forums.balena.io
 category: IoT
 title: balenaForums
 description: balenaForums
-userCount: 5457
+userCount: 5574
 icon: balena.png
 activity: very high
 language: en
