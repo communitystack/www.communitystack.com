@@ -8,7 +8,7 @@ workflows:
             - build
           filters:
             branches:
-              only: master
+              only: trunk
 jobs:
   build:
     docker:
