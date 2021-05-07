@@ -4,8 +4,8 @@ category: IoT
 title: SmartThings Community
 description: A community for everyone interesting in making their homes and lives
   smarter.
-userCount: 92472
+userCount: 92623
 icon: smartthings.svg
-activity: very high
+activity: high
 language: en
 ---

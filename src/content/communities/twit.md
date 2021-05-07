@@ -3,8 +3,8 @@ address: https://www.twit.community
 category: Podcasts
 title: TWiT.Community
 description: The community for TWiT listeners and hosts
-userCount: 3231
+userCount: 3268
 icon: twit.png
-activity: medium
+activity: high
 language: en
 ---

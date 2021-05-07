@@ -5,7 +5,7 @@ category: Hosting
 title: Nextcloud community
 description: A place to discuss Nextcloud, get help, and meet other friendly people
   :)
-userCount: 41100
+userCount: 41811
 icon: nextcloud.svg
 activity: very high
 language: en

@@ -5,7 +5,7 @@ title: GO Hub Forum
 description: |-
   The official forum for Pokémon GO Hub, the biggest Pokémon GO forum in the world with
     thousands of daily users.
-userCount: 8762
+userCount: 8780
 icon: go-hub.png
 activity: medium
 language: en

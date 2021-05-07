@@ -3,7 +3,7 @@ address: https://forum.tudiabetes.org
 category: Health
 title: TuDiabetes Forum
 description: A community of people touched by diabetes.
-userCount: 22394
+userCount: 22428
 icon: tudiabetes.png
 activity: high
 language: en
