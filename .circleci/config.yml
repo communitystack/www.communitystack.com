@@ -1,34 +1,26 @@
 version: 2.1
+
+orbs:
+  strawberry: hubci/strawberry@0.6
+
 workflows:
   main:
     jobs:
-      - build
+      - strawberry/build:
+          version: "0.16.0"
+          source: "src"
+          html-proofer: true
       - deploy:
           requires:
-            - build
+            - strawberry/build
           filters:
             branches:
               only: trunk
-jobs:
-  build:
-    docker:
-      - image: hubci/gotham:0.13
-    steps:
-      - checkout
-      - run:
-          name: "Build Website with Gotham"
-          command: HUGO_ENV=production gotham -v -s src/
-      - run:
-          name: "Test The Website"
-          command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
-      - persist_to_workspace:
-          root: src
-          paths:
-            - public
 
+jobs:
   deploy:
     docker:
-      - image: hubci/gotham:0.13
+      - image: hubci/strawberry:0.16
     steps:
       - attach_workspace:
           at: src
