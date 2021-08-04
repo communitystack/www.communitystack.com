@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 520 520" version="1.1" id="svg35" sodipodi:docname="ubuntuDDE-official-symbol.svg" width="520" height="520" inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  
+  
+  <defs id="defs4">
+    <style id="style2">.cls-1{fill:#0097f4;}.cls-2{fill:#fff;}</style>
+  </defs>
+  
+  <g id="ubuntuDDE_Official_Symbol" data-name="ubuntuDDE Official Symbol" transform="translate(-235,-243.5)">
+    <circle class="cls-1" cx="495" cy="503.5" r="260" id="circle8"/>
+    <rect class="cls-2" x="401.44" y="414.89999" width="269.59" height="7.9299998" transform="rotate(29.22,536.2332,418.86561)" id="rect10"/>
+    <rect class="cls-2" x="390.87" y="434.23001" width="269.60999" height="7.9299998" transform="rotate(29.22,525.68603,438.20768)" id="rect12"/>
+    <rect class="cls-2" x="274.39001" y="495.63" width="253.8" height="7.9299998" transform="rotate(-89.99,401.25861,499.58859)" id="rect14"/>
+    <rect class="cls-2" x="296.41" y="495.42999" width="253.82001" height="7.9299998" transform="rotate(-89.99,423.28552,499.39165)" id="rect16"/>
+    <circle class="cls-1" cx="414.85999" cy="362.37" r="57" id="circle18"/>
+    <rect class="cls-2" x="392.35001" y="545.58002" width="265.62" height="7.9299998" transform="rotate(-29.01,525.26296,549.61406)" id="rect20"/>
+    <rect class="cls-2" x="403.20999" y="564.73999" width="265.64001" height="7.9299998" transform="rotate(-29.01,536.1408,568.78006)" id="rect22"/>
+    <circle class="cls-1" cx="415.85999" cy="626.28003" r="57" id="circle24"/>
+    <circle class="cls-1" cx="646.78003" cy="495.32999" r="57" id="circle26"/>
+    <circle class="cls-2" cx="415" cy="362.5" r="50" id="circle28"/>
+    <circle class="cls-2" cx="647" cy="495.5" r="50" id="circle30"/>
+    <circle class="cls-2" cx="416" cy="626.5" r="50" id="circle32"/>
+  </g>
+</svg>
