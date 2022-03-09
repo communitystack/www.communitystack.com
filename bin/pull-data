@@ -2,23 +2,23 @@
 
 function pull_discourse_info(){
 
-	url=$(bin/yaml read $1 address)
+	url=$(bin/yaml.linux read $1 address)
 	slug=$(basename $1 .md)
 
 
 	# Technically the Yaml Front Matter order doesn't matter, but we're trying to keep it in this order regardless. Basically, the initial community file should have: `address`, `category`, and a `tags` array. Then, we have everything in this order:
 	json=$(curl -k -X GET -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36" $url"/about.json")
 
-	title=$( echo $json | ./bin/yaml read - about.title )
-	description=$( echo $json | ./bin/yaml read - about.description )
-	user_count=$( echo $json | ./bin/yaml read - about.stats.user_count )
-	posts_30_days=$( echo $json | ./bin/yaml read - about.stats.posts_30_days )
-	language=$( echo $json | ./bin/yaml read - about.locale )
+	title=$( echo $json | ./bin/yaml.linux read - about.title )
+	description=$( echo $json | ./bin/yaml.linux read - about.description )
+	user_count=$( echo $json | ./bin/yaml.linux read - about.stats.user_count )
+	posts_30_days=$( echo $json | ./bin/yaml.linux read - about.stats.posts_30_days )
+	language=$( echo $json | ./bin/yaml.linux read - about.locale )
 
 	# Pull in Chrome HomeScreen Image, which we'll use as the default logo. For now, assuming .png until we come across otherwise.
 	json=$(curl -k -X GET -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36" $url"/manifest.json")
 
-	icon_url=$( echo $json | ./bin/yaml read - icons[0].src )
+	icon_url=$( echo $json | ./bin/yaml.linux read - icons[0].src )
 
 	#if icon_url doesn't have http, then it's just the path and we need to add it
 	if echo "$icon_url" | grep -q "^//";then
@@ -48,12 +48,12 @@ function pull_discourse_info(){
 
 
 	# write our new YAML
-	./bin/yaml write -i $1 title "$title"
-	./bin/yaml write -i $1 description "$description"
-	./bin/yaml write -i $1 userCount $user_count
-	./bin/yaml write -i $1 icon $slug"."${icon_url##*.}
-	./bin/yaml write -i $1 activity "$activity"
-	./bin/yaml write -i $1 language "$language"
+	./bin/yaml.linux write -i $1 title "$title"
+	./bin/yaml.linux write -i $1 description "$description"
+	./bin/yaml.linux write -i $1 userCount $user_count
+	./bin/yaml.linux write -i $1 icon $slug"."${icon_url##*.}
+	./bin/yaml.linux write -i $1 activity "$activity"
+	./bin/yaml.linux write -i $1 language "$language"
 
 	# The `yaml` binary destroys our .md files as Hugo needs them to be. So let's fix that.
 	echo -e "---\n$(cat $1)\n---" > $1
