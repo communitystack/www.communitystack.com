@@ -1,5 +1,5 @@
 ---
-address: https://forum.revidianauto.com/
+address: https://forum.auto.revidian.com/
 category: Automobiles
 title: Revidian Auto Forum
 description: The place to discuss the Revidian Auto Garage app.

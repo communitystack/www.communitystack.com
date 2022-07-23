@@ -2,9 +2,9 @@
 address: https://forum.cockroachlabs.com
 category: Software
 title: Cockroach Labs
-description: Community forum for CockroachDB
-userCount: 1671
+description: Community Forum for CockroachDB
+userCount: 1801
 icon: cockroachdb-forum.jpeg
-activity: medium
+activity: low
 language: en
 ---

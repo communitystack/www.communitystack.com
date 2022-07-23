@@ -3,7 +3,7 @@ address: https://forum.xboxera.com
 category: Gaming
 title: XboxEra
 description: Gaming for Everyone.
-userCount: 2159
+userCount: 3142
 icon: xboxera.png
 activity: very high
 language: en
