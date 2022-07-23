@@ -1,10 +1,10 @@
 ---
-address: https://help.replicated.com/community/
+address: https://community.replicated.com/
 category: Software
 title: Replicated Community
 description: Help and conversation for the Replicated platform and products
-userCount: 204
+userCount: 253
 icon: replicated.png
-activity: low
+activity: medium
 language: en
 ---

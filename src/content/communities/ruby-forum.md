@@ -5,8 +5,8 @@ title: Ruby-Forum
 description: |-
   Online Community that helps beginners learn Ruby, and coders solve Ruby coding problems
     since 2005
-userCount: 41386
+userCount: 38108
 icon: ruby-forum.png
-activity: medium
+activity: low
 language: en
 ---

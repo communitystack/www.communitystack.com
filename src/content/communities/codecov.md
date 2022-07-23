@@ -3,8 +3,8 @@ address: https://community.codecov.com/
 category: Software
 title: Codecov
 description: A place to discuss Codecov features and to get support
-userCount: 1425
+userCount: 1526
 icon: codecov.svg
-activity: medium
+activity: low
 language: en
 ---

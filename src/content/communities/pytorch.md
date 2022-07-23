@@ -3,8 +3,8 @@ address: https://discuss.pytorch.org
 category: Programming
 title: PyTorch Forums
 description: A place to discuss PyTorch code, issues, install, research
-userCount: 42181
+userCount: 49308
 icon: pytorch.png
-activity: very high
+activity: high
 language: en
 ---

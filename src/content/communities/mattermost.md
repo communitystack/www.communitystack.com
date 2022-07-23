@@ -1,9 +1,9 @@
 ---
-address: https://forum.mattermost.org
+address: https://forum.mattermost.com
 category: Community
-title: Mattermost, Inc.
-description: Discussion about Mattermost open-source team communication
-userCount: 4230
+title: Mattermost Discussion Forums
+description: Discussion forums for Mattermost and our open source community
+userCount: 4509
 icon: mattermost.png
 activity: medium
 language: en
