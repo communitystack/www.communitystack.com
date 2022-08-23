@@ -7,7 +7,7 @@ function pull_discourse_info(){
 
 
 	# Technically the Yaml Front Matter order doesn't matter, but we're trying to keep it in this order regardless. Basically, the initial community file should have: `address`, `category`, and a `tags` array. Then, we have everything in this order:
-	json=$(curl -k -X GET -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" $url"/about.json")
+	json=$(curl -k -X GET -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" $url"/about.json")
 
 	title=$( echo $json | ./bin/yaml.linux read - about.title )
 	description=$( echo $json | ./bin/yaml.linux read - about.description )
@@ -16,7 +16,7 @@ function pull_discourse_info(){
 	language=$( echo $json | ./bin/yaml.linux read - about.locale )
 
 	# Pull in Chrome HomeScreen Image, which we'll use as the default logo. For now, assuming .png until we come across otherwise.
-	json=$(curl -k -X GET -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36" $url"/manifest.json")
+	json=$(curl -k -X GET -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" $url"/manifest.json")
 
 	icon_url=$( echo $json | ./bin/yaml.linux read - icons[0].src )
 
