@@ -5,7 +5,7 @@ title: OpenCV
 description: |-
   OpenCV (Open Source Computer Vision Library) is an open source computer vision and
     machine learning (AI) software library.
-userCount: 4118
+userCount: 4292
 icon: opencv.png
 activity: medium
 language: en
