@@ -3,8 +3,8 @@ address: https://community.replicated.com/
 category: Software
 title: Replicated Community
 description: Help and conversation for the Replicated platform and products
-userCount: 253
+userCount: 262
 icon: replicated.png
-activity: medium
+activity: low
 language: en
 ---

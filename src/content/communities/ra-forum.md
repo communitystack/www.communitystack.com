@@ -3,7 +3,7 @@ address: https://forum.auto.revidian.com/
 category: Automobiles
 title: Revidian Auto Forum
 description: The place to discuss the Revidian Auto Garage app.
-userCount: 3
+userCount: 4
 icon: ra-forum.png
 activity: dead
 language: en

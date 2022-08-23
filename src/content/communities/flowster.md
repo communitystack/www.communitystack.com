@@ -5,8 +5,8 @@ title: eCommerce Sellers Forum
 description: |-
   A platform for eCommerce entrepreneurs to share ideas on how to take a more systematic
     approach to growth.
-userCount: 433
+userCount: 429
 icon: flowster.png
-activity: dead
+activity: low
 language: en
 ---
