@@ -1,6 +1,6 @@
 ---
 address: https://community.icecavern.xyz
-category: gaming
+category: Gaming
 title: IceCavern
 description: |-
   A game studio based on the Roblox platform, focused on creating games for users to
