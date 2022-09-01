@@ -1,7 +1,7 @@
 ---
-address: https://community.icecavern.xyz
+address: https://community.blackiron.dev
 category: Gaming
-title: IceCavern
+title: BlackIron
 description: |-
   A game studio based on the Roblox platform, focused on creating games for users to
     enjoy.
