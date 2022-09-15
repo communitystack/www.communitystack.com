@@ -1,6 +1,6 @@
-baseURL = "https://DiscourseHub.com"
+baseURL = "https://CommunityStack.com"
 languageCode = "en-us"
-title = "DiscourseHub"
+title = "CommunityStack"
 
 theme = "discoursehub-2019"
 googleAnalytics = "UA-107057228-1"
