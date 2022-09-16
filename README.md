@@ -1,6 +1,8 @@
-# www.DiscourseHub.com [![CircleCI Build Status](https://circleci.com/gh/discoursehub/www.discoursehub.com.svg?style=shield)](https://circleci.com/gh/discoursehub/www.discoursehub.com) [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/discoursehub/www.discoursehub.com/master/LICENSE)
+# www.CommunityStack.com [![CircleCI Build Status](https://circleci.com/gh/communitystack/www.communitystack.com.svg?style=shield)](https://circleci.com/gh/communitystack/www.communitystack.com) [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/communitystack/www.communitystack.com/trunk/LICENSE)
 
-## Adding a New Discourse Website
+***Notice: We've rebranded. This website use to be called DiscourseHub and was located at DiscourseHub.com. After receiving a friendly nudge from Discourse the company, we've rebranded to CommunityStack. The old repository URL was https://github.com/discoursehub/www.discoursehub.com and the new one is https://github.com/communitystack/www.communitystack.com***
+
+## Adding a New Discourse community
 
 ### Create community file (without Hugo):
 
