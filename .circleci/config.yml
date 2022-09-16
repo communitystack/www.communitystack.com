@@ -26,7 +26,7 @@ jobs:
           at: src
       - add_ssh_keys
       - run:
-          name: "Deploy to Revidian Cloud Infrastructure"
+          name: "Deploy to Revidian Cloud"
           command: |
-            echo 'sweb0.revidian.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHyIA/VJN9GHUeYUvauk+sGsQcvk8FpXErixwvgqQmW1pdje/Vo4RyAAskzdgoR+HUYOWM1gLW7ZFZHL8F//sqw=' >> ~/.ssh/known_hosts
-            rsync -va --delete src/public/ root@sweb0.revidian.net:/static-websites/discoursehub/www/public_html
+            echo 'web0.atl.revidian.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBE16slz1okRPeUhxIpzBCn9rHqjk51ylxEYlYXvblswcxOQ0rPyAX6N8Bd2pnsh99xce/jaX2KJHPLPCc+zAXTg=' >> ~/.ssh/known_hosts
+            rsync -va --delete src/public/ root@web0.atl.revidian.net:/gfs-vols/static-vol/communitystack/www/public_html
