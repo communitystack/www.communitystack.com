@@ -1,6 +1,12 @@
 body{
 	background-color: white;
 }
+	/* set colors for each sub-homepage */
+	body.section-docsthursday{
+		&> header nav{
+			background-color: $dtPriColor;
+		}
+	}
 
 body > header nav{
 	display: flex;

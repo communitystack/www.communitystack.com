@@ -21,6 +21,11 @@ description = "A directory of Discourse communities around the Internet and an a
 	weight	= 1
 
 [[menu.main]]
+	name	= "DocsThursday"
+	url		= "/DocsThursday"
+	weight	= 3
+
+[[menu.main]]
 	name	= "Plugins"
 	url		= "/plugins"
 	weight	= 5
