@@ -69,4 +69,4 @@ jobs:
           kubectl-version: "v1.27.6"
       - run:
           name: "Deploy"
-          command: kubectl set image --namespace=static-websites deployment/community-stack-website community-stack-website=ghcr.io/communitystack/www.communitystack.com:$CIRCLE_SHA1
+          command: kubectl set image --namespace=static-websites deployment/community-stack-website communitystack-website=ghcr.io/communitystack/www.communitystack.com:$CIRCLE_SHA1
