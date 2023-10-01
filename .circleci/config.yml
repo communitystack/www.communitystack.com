@@ -1,32 +1,72 @@
 version: 2.1
 
 orbs:
+  docker: circleci/docker@2.4
+  k8s: circleci/kubernetes@1.3
   strawberry: hubci/strawberry@0.6
 
 workflows:
-  main:
+  build-n-test-wf:
     jobs:
       - strawberry/build:
           version: "0.16.0"
           source: "src"
           html-proofer: true
-      - deploy:
+          filters:
+            branches:
+              ignore: trunk
+      - docker/publish:
+          attach-at: "src"
+          deploy: false
+          registry: "ghcr.io"
+          image: "communitystack/www.communitystack.com"
+          lint-dockerfile: true
+          remote-docker-version: "20.10.24"
+          tag: "$CIRCLE_SHA1,<< pipeline.git.branch >>,<< pipeline.number >>"
+          requires:
+            - strawberry/build
+          filters:
+            branches:
+              ignore: trunk
+  build-n-deploy-wf:
+    jobs:
+      - strawberry/build:
+          version: "0.16.0"
+          source: "src"
+          html-proofer: true
+          filters:
+            branches:
+              only: trunk
+      - docker/publish:
+          attach-at: "src"
+          registry: "ghcr.io"
+          image: "communitystack/www.communitystack.com"
+          remote-docker-version: "20.10.24"
+          tag: "$CIRCLE_SHA1,<< pipeline.git.branch >>,<< pipeline.number >>"
           requires:
             - strawberry/build
           filters:
             branches:
               only: trunk
+          context: docker-ctx
+      - deploy:
+          requires:
+            - docker/publish
+          filters:
+            branches:
+              only: trunk
+          context: k8s-ctx
 
 jobs:
   deploy:
     docker:
-      - image: hubci/strawberry:0.16
+      - image: hubci/strawberry:0.16.0
     steps:
       - attach_workspace:
           at: src
-      - add_ssh_keys
+      - k8s/install-kubeconfig
+      - k8s/install-kubectl:
+          kubectl-version: "v1.27.6"
       - run:
-          name: "Deploy to Revidian Cloud"
-          command: |
-            echo 'web0.atl.revidian.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBE16slz1okRPeUhxIpzBCn9rHqjk51ylxEYlYXvblswcxOQ0rPyAX6N8Bd2pnsh99xce/jaX2KJHPLPCc+zAXTg=' >> ~/.ssh/known_hosts
-            rsync -va --delete src/public/ root@web0.atl.revidian.net:/gfs-vols/static-vol/communitystack/www/public_html
+          name: "Deploy"
+          command: kubectl set image --namespace=static-websites deployment/community-stack-website community-stack-website=ghcr.io/communitystack/www.communitystack.com:$CIRCLE_SHA1
