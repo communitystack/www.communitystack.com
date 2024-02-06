@@ -6,7 +6,7 @@ metadata:
   labels:
     app: communitystack-website
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: communitystack-website
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: communitystack-website
-        image: "ghcr.io/communitystack/www.communitystack.com:trunk"
+        image: "ghcr.io/communitystack/www.communitystack.com:latest"
         ports:
         - containerPort: 80
 ---
@@ -44,8 +44,15 @@ metadata:
   name: communitystack-website
   labels:
     app: communitystack-website
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-production"
 spec:
-  ingressClassName: caddy
+  ingressClassName: nginx
+  tls:
+  - hosts:
+    - www.communitystack.com
+    - communitystack.com
+    secretName: communitystack-website-tls
   rules:
   - host: www.communitystack.com
     http:

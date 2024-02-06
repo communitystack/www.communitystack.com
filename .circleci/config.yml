@@ -42,7 +42,7 @@ workflows:
           registry: "ghcr.io"
           image: "communitystack/www.communitystack.com"
           remote-docker-version: "20.10.24"
-          tag: "$CIRCLE_SHA1,<< pipeline.git.branch >>,<< pipeline.number >>"
+          tag: "$CIRCLE_SHA1,<< pipeline.git.branch >>,<< pipeline.number >>,latest"
           requires:
             - strawberry/build
           filters:
@@ -66,7 +66,7 @@ jobs:
           at: src
       - k8s/install-kubeconfig
       - k8s/install-kubectl:
-          kubectl-version: "v1.27.6"
+          kubectl-version: "v1.28.6"
       - run:
           name: "Deploy"
           command: kubectl set image --namespace=static-websites deployment/community-stack-website communitystack-website=ghcr.io/communitystack/www.communitystack.com:$CIRCLE_SHA1
